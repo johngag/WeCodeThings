@@ -1,0 +1,301 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>FreshIdeas | Professional HTML CSS Template</title>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+<!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie7.css">
+<![endif]-->
+<!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css">
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/cufon.js"></script>
+<script type="text/javascript" src="js/cufon_max.js"></script>
+<script type="text/javascript" src="js/3d_carousel.js"></script>
+<script type="text/javascript" src="js/validate.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#contact_form").validate({
+			rules: {
+				verification: {
+	  				required: true,
+	  				range: [5, 8]
+				}
+			}
+		});
+	});
+</script>
+</head>
+
+<body>
+
+<!-- Color Pick -->
+<div class="color_pick">
+	<ul>
+    	<li class="blue"><a href="http://web-gab.com/templates/freshideas/BLUE/index.html" >blue</a></li>
+        <li class="coffee"><a href="http://web-gab.com/templates/freshideas/COFFEE/index.html" >blue</a></li>
+        <li class="green"><a href="http://web-gab.com/templates/freshideas/GREEN/index.html" >blue</a></li>
+        <li class="orange"><a href="http://web-gab.com/templates/freshideas/ORANGE/index.html" >blue</a></li>
+    </ul>
+</div>
+<!-- Color Pick -->
+
+<!-- ***** HEADER START ***** -->
+
+<div id="header">
+<div class="header_wrapper">
+    <!-- logo -->
+    <div id="logo"><a href="index.html"><img src="images/green_grey/logo.png" alt="FreshIdeas homepage"></a></div>
+    <!-- logo -->
+    
+    <!-- main menu -->
+    <div id="navigation">
+        <ul class="nav">
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="about.html"><span>About Us</span></a>
+            <ul>
+            	<li><a href="about.html">Page with sidebare</a></li>
+            	<li><a href="price_page.html">Pricelist</a></li>
+                <li><a href="services.html">Page full width</a></li>
+            </ul>
+        </li>
+        <li><a href="portfolio_full.html"><span>Portfolio</span></a>
+        	<ul>
+            	<li><a href="portfolio_full.html">Pportfolio 3 columns</a></li>
+                <li><a href="portfolio_2_col.html">Pportfolio 2 column</a></li>
+                <li><a href="portfolio_1_col.html">Pportfolio 1 column</a></li>
+            </ul>
+        </li>
+        <li><a href="blog.html"><span>Blog</span></a></li>
+        <li class="current"><a href="contact.html"><span>Contact</span></a></li> 
+        </ul> 
+    </div>
+    <!-- end of main menu -->
+</div><!-- End of header_wrapper -->
+</div><!-- End of header -->
+
+<!-- ***** HEADER END ***** -->
+        
+<div class="clear"></div>
+        
+<!-- *********** -->
+<!-- 3D Carousel -->
+<!-- *********** -->
+<div class="slider_bg">
+	<div class="slider_wrapper">
+        <div id="carousel">
+        	<div class="carousel-feature">
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/001.jpg"></a>
+        	</div>
+        	<div class="carousel-feature">
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/002.jpg"></a>
+        	</div>
+        	<div class="carousel-feature">
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/003.jpg"></a>
+        	</div>
+            <div class="carousel-feature">
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/004.jpg"></a>
+        	</div>
+            <div class="carousel-feature">
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/002.jpg"></a>
+        	</div>
+        </div><!-- End of carousel -->
+        
+        <!-- Header Main Text -->
+        <div class="header_text_container">
+        	<h1>Fresh Contact</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et eugiat dolor est eu lacus. Aenean eget est in 
+            libero condimentum convallis et a lacus. </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero condimentum convallis et a lacus. 
+            Donec ut magna quam, vitae facilisis enim. Nunc velit lorem, ullamcorper non porttitor nec, tristique condimentum lectus. </p>
+        </div>
+        <!-- End of Header Main Text -->
+    </div><!-- End of slider_wrapper -->
+</div><!-- End of slider_bg -->
+<!-- ****************** -->
+<!-- End of 3D Carousel -->
+<!-- ****************** -->
+
+<!-- ************ -->
+<!-- MAIN CONTENT -->
+<!-- ************ -->
+	<div class="main_content_wrapper main_content_wrapper_sidebar">        
+        <div class="content_610">
+        	<h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ultrices metus. Donec vel vestibulum orci. Ut viverra odio in eros lobortis eu eleifend odio bibendum. Nulla et eros odio. Quisque dapibus
+            lectus et erat tristique in posuere purus congue.</p>
+            
+            <!-- CONTACT FORM -->
+            <div id="cf_top"></div>
+            <div id="cf_main">
+            	<form action="contact.php" method="post" id="contact_form">
+                	<div class="input_wrapper">
+                		<div class="cf_label">Name * :</div>
+                		<input class="required" type="text" id="name" name="name">
+                    </div>
+                    <div class="input_wrapper">
+                		<div class="cf_label">Email * :</div>
+                		<input type="text" id="cemail" name="email" class="required email">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="input_wrapper">
+                		<div class="cf_label">Phone number :</div>
+                		<input class="phone" type="text" name="phone">
+                    </div>
+                    <div class="input_wrapper">
+                		<div class="cf_label">Your website :</div>
+                		<input class="website" type="text" name="website">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="input_wrapper">
+                		<textarea name="message" id="message" rows="20" cols="20" class="required"></textarea>
+                    </div>
+                    <div class="input_wrapper">
+                		<div class="cf_label verification_label" style="float:left; padding:8px 10px 0 0;">Enter a number between 5 and 8 * :</div>
+                        <input type="text" class="verification" id="verification" name="verification">
+                    </div>
+                    
+                    <div class="clear"></div>
+                		<div><input type="submit" id="submit" class="button" value="Send message"></div>
+                </form>
+            </div><!-- End of cf_main -->
+            <div id="cf_bottom"></div>
+            <!-- CONTACT FORM -->
+            
+            <div class="content_separator"></div>
+            <div class="location_box">
+            	<h4>London location</h4>
+                <p>105A - Street Address, London (5000)<br>Contact: Anna Jones - <a href="#">anna@domain.com</a><br>Office Phone: (+33) 333-555-000</p>
+                <object type="text/html" width="285" height="170" data="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=ro&amp;geocode=&amp;q=centre+d'affaires+Chateau+Rouge,+276+Avenue+de+la+Marne,+59700+Marcq-en-Bar%C5%93ul,+France&amp;aq=0&amp;sll=48.15027,11.62239&amp;sspn=0.006328,0.017885&amp;g=Arabellastra%C3%9Fe+23,+81925,+M%C3%BCnchen,+Deutschland&amp;ie=UTF8&amp;ll=50.679951,3.115025&amp;spn=0.032789,0.051745&amp;output=embed"></object><br><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=ro&amp;geocode=&amp;q=centre+d'affaires+Chateau+Rouge,+276+Avenue+de+la+Marne,+59700+Marcq-en-Bar%C5%93ul,+France&amp;aq=0&amp;sll=48.15027,11.62239&amp;sspn=0.006328,0.017885&amp;g=Arabellastra%C3%9Fe+23,+81925,+M%C3%BCnchen,+Deutschland&amp;ie=UTF8&amp;ll=50.679951,3.115025&amp;spn=0.032789,0.051745">Enlarge map</a></small>
+            </div><!-- End of location_box -->
+            
+            <div class="location_box box_last">
+            	<h4>Brussels location</h4>
+                <p>105A - Street Address, London (5000)<br>Contact: Anna Jones - <a href="#">anna@domain.com</a><br>Office Phone: (+33) 333-555-000</p>
+                <object type="text/html" width="285" height="170" data="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=ro&amp;geocode=&amp;q=centre+d'affaires+Chateau+Rouge,+276+Avenue+de+la+Marne,+59700+Marcq-en-Bar%C5%93ul,+France&amp;aq=0&amp;sll=48.15027,11.62239&amp;sspn=0.006328,0.017885&amp;g=Arabellastra%C3%9Fe+23,+81925,+M%C3%BCnchen,+Deutschland&amp;ie=UTF8&amp;ll=50.679951,3.115025&amp;spn=0.032789,0.051745&amp;output=embed"></object><br><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=ro&amp;geocode=&amp;q=centre+d'affaires+Chateau+Rouge,+276+Avenue+de+la+Marne,+59700+Marcq-en-Bar%C5%93ul,+France&amp;aq=0&amp;sll=48.15027,11.62239&amp;sspn=0.006328,0.017885&amp;g=Arabellastra%C3%9Fe+23,+81925,+M%C3%BCnchen,+Deutschland&amp;ie=UTF8&amp;ll=50.679951,3.115025&amp;spn=0.032789,0.051745">Enlarge map</a></small>
+            </div><!-- End of location_box -->
+        </div><!-- End of content_610 -->
+        
+        
+        <!-- SIDEBAR -->
+        <div class="content_300 sidebar">
+            <form method="get" id="searchform" action="#">
+            	<div><input class="search_input text" type="text" value="Search..." name="s" id="s" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;"></div>
+            	<div><input type="image" src="images/green_grey/search_btn.png" value="Search" class="btn"></div>
+            </form>
+            <div class="clear"></div>
+            <br><br>
+            <h3>Recent posts</h3>
+            <ul class="blog_sidebar">
+            	<li>
+                	<a href="#"><img src="images/green_grey/blog/thumb_01.jpg" alt="thumb"></a>
+                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+                    <span><a href="#">February 02 2011</a></span>
+                </li>
+                
+                <li>
+                	<a href="#"><img src="images/green_grey/blog/thumb_02.jpg" alt="thumb"></a>
+                    <a href="#">Lorem ipsum dolor sit amet</a><br>
+                    <span><a href="#">February 02 2011</a></span>
+                </li>
+                
+                <li>
+                	<a href="#"><img src="images/green_grey/blog/thumb_03.jpg" alt="thumb"></a>
+                    <a href="#">Donec porttitor condimentum volutpat</a><br>
+                    <span><a href="#">February 02 2011</a></span>
+                </li>
+                
+                <li>
+                	<a href="#"><img src="images/green_grey/blog/thumb_04.jpg" alt="thumb"></a>
+                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
+                    <span><a href="#">February 02 2011</a></span>
+                </li>
+            </ul>
+            
+        	<h3>Our fresh services</h3>
+            <ul id="fresh_services">
+            	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Fusce arcu ipsum</a></li>
+                <li><a href="#">Aliquam nec orci quam</a></li>
+                <li><a href="#">Sed commodo hendrerit egestas</a></li>
+                <li><a href="#">Mauris quis tortor tellus</a></li>
+                <li><a href="#">Fusce dictum nisl in metus</a></li>
+            </ul>
+            
+            <br>
+            <img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">
+        	<h3>Fresh tweets</h3>
+            <div class="twitter_feed">
+            	<strong>@yourTwitterId</strong>
+                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            </div>
+            
+            <div class="twitter_feed">
+            	<strong>@yourTwitterId</strong>
+                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            </div>
+            
+            <div class="twitter_feed">
+            	<strong>@yourTwitterId</strong>
+                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            </div>
+        </div><!-- End of content_300 -->
+        <!-- SIDEBAR -->
+        
+    </div><!-- End of main_contetn_wrapper -->
+
+<!-- ******************* -->
+<!-- END OF MAIN CONTENT -->
+<!-- ******************* -->
+
+<div class="clear"></div>
+
+<!-- ****** -->
+<!-- FOOTER -->
+<!-- ****** -->
+<div class="footer_bg">
+	<div class="footer_wrapper">
+    	<div class="footer_box">
+        	<h4>Fresh Testimonials</h4>
+            <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet arcu massa. Vivamus in magna nec massa lacinia commodo vel vitae lorem. Sed porta pellentesque pellentesque. Duis sit amet massa orci, 
+            vitae vehicula massa. Maecenas consectetur faucibus aliquam."</em></p><p><span>John Doe</span> - CEO at Company name</p>
+        </div><!-- End of footer_box 1 -->
+        <div class="footer_box">
+        	<h4>Stay in touch</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet arcu massa. Vivamus in magna nec massa lacinia commodo vel vitae lorem. Sed porta pellentesque pellentesque.</p>
+            <ul class="social">
+            	<li><a href="#"><img src="images/green_grey/icons/ico_facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+                <li><a href="#"><img src="images/green_grey/icons/ico_stumble.png" alt="stumble uppon"></a></li>
+                <li><a href="#"><img src="images/green_grey/icons/ico_youtube.png" alt="youtube channel"></a></li>
+                <li><a href="#"><img src="images/green_grey/icons/ico_rss.png" alt="rss feed"></a></li>
+            </ul>
+        </div><!-- End of footer_box 2 -->
+        <div class="footer_box box_last">
+        	<h4>Contact us</h4>
+            <ul id="contact_us_list">
+            	<li id="contact_phone">+01 000 555 323</li>
+                <li id="contact_email"><a href="#">yourname@domain.com</a></li>
+                <li id="contact_addess">Street address 25 Bruxelles 1000 - Belgium</li>
+            </ul>
+            <div id="contact_page"><a href="contact.html">Contact page</a></div>
+        </div><!-- End of footer_box 3 -->
+        <div class="clear"></div>
+        <div class="footer_legal">
+        	<p>&copy; 2011 Fresh Ideas - Business & Portfolio PSD template</p>
+        </div><!-- End of footer_legan -->
+    </div><!-- End of footer wrapper -->
+</div><!-- End of footer_bg -->
+<!-- ************* -->
+<!-- END OF FOOTER -->
+<!-- ************* -->
+</body>
+</html>
