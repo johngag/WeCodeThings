@@ -20,15 +20,15 @@
         <div class="footer_box box_last">
         	<h4>Contact us</h4>
             <ul id="contact_us_list">
-            	<li id="contact_phone">+01 000 555 323</li>
-                <li id="contact_email"><a href="#">yourname@domain.com</a></li>
-                <li id="contact_addess">Street address 25 Bruxelles 1000 - Belgium</li>
+            	<li id="contact_phone">(775) 591 8277</li>
+                <li id="contact_email"><a href="#">WeCodeThings@gmail.com</a></li>
+                <li id="contact_addess">Street address: 1627 Lander St. Reno, NV</li>
             </ul>
-            <div id="contact_page"><a href="contact.html">Contact page</a></div>
+            <div id="contact_page"><a href="#buildURL(action='main.contact')#">Contact page</a></div>
         </div><!-- End of footer_box 3 -->
         <div class="clear"></div>
         <div class="footer_legal">
-        	<p>&copy; 2011 Fresh Ideas - Business & Portfolio PSD template</p>
+        	<p>&copy; 2011 WeCodeThings - Business & Portfolio PSD template</p>
         </div><!-- End of footer_legan -->
     </div><!-- End of footer wrapper -->
 </div><!-- End of footer_bg -->

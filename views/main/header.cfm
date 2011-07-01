@@ -2,13 +2,13 @@
 <div id="header">
 <div class="header_wrapper">
     <!-- logo -->
-    <div id="logo"><a href="index.html"><img src="images/green_grey/logo.png" alt="WeCodeThings.com homepage"></a></div>
+    <div id="logo"><a href="#buildURL(action='main.default')#"><img src="images/green_grey/logo.png" alt="WeCodeThings.com homepage"></a></div>
     <!-- logo -->
     
     <!-- main menu -->
     <div id="navigation">
         <ul class="nav">
-        <li <cfif rc.action eq 'main.default'>class="current"</cfif>><a href="/"><span>Home</span></a></li>
+        <li <cfif rc.action eq 'main.default'>class="current"</cfif>><a href="#buildURL(action='main.default')#"><span>Home</span></a></li>
         <li <cfif rc.action eq 'main.about'>class="current"</cfif>><a href="#buildURL(action='main.about')#"><span>About Us</span></a></li>
         <li <cfif rc.action eq 'main.portfolio'>class="current"</cfif>><a href="#buildURL(action='main.portfolio')#"><span>Portfolio</span></a></li>
 		<li <cfif rc.action eq 'main.services'>class="current"</cfif>><a href="#buildURL(action='main.services')#"><span>Services</span></a></li>

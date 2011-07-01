@@ -68,14 +68,13 @@
         </div><!-- End of content_630 -->
         
         <div class="content_300">
-        	<h3>Our fresh services</h3>
+        	<h3>Our programming services</h3>
             <ul id="fresh_services">
-            	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Fusce arcu ipsum</a></li>
-                <li><a href="#">Aliquam nec orci quam</a></li>
-                <li><a href="#">Sed commodo hendrerit egestas</a></li>
-                <li><a href="#">Mauris quis tortor tellus</a></li>
-                <li><a href="#">Fusce dictum nisl in metus</a></li>
+            	<li><a href="#">ColdFusion</a></li>
+                <li><a href="#">Flex | ActionScript</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">IPhone Apps</a></li>
+                <li><a href="#">Android Apps</a></li>
             </ul>
         </div><!-- End of content_300 -->
     </div><!-- End of main_contetn_wrapper -->
