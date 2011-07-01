@@ -47,7 +47,7 @@
         <div class="location_box">
         
         	<h4>Reno location</h4>
-            <p>1627 Lander St. Reno, NV<br>Contact: Joel Hill - <a href="#">jiggidyuo@gmail.com</a><br>Office Phone: (775) 240-3959</p>
+            <p>1627 Lander St. Reno, NV<br>Contact: Joel Hill - <a href="#">jiggidyuo@gmail.com</a><br>Office Phone: (775) 591-8277</p>
             <object type="text/html" width="285" height="170" data="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=527+Lander+St.+Reno+NV&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=42.495706,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=527+Lander+St,+Reno,+Nevada+89509&amp;z=14&amp;ll=39.519506,-119.815394&amp;output=embed"></object><br><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=527+Lander+St.+Reno+NV&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=42.495706,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=527+Lander+St,+Reno,+Nevada+89509&amp;z=14&amp;ll=39.519506,-119.815394">Enlarge map</a></small>
         </div><!-- End of location_box -->
         
