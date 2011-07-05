@@ -15,12 +15,13 @@
             <div class="content_separator_small"></div>
             
             <img src="images/green_grey/business_man.jpg" height="169" width="162" alt="businessman" class="float_left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ultrices metus. Donec vel vestibulum orci. Ut viverra odio in eros lobortis eu eleifend odio bibendum. Nulla et eros odio. Quisque dapibus
-            lectus et erat tristique in posuere purus congue. Quisque sagittis turpis et nibh posuere hendrerit accumsan libero aliquet. Aliquam justo velit, feugiat in egestas ut, iaculis a est. Integer iaculis 
-            adipiscing ipsum, quis ornare mi pharetra ac.</p>
-            <p>Vivamus rutrum quam et nunc suscipit egestas. Etiam odio magna, sagittis at iaculis in, convallis in massa. Aenean sem ligula, sodales et pulvinar vitae, fringilla eu nulla. Etiam pharetra placerat nisi
-            a semper. Sed ut elementum nunc. Nulla aliquet tellus at neque viverra eu ultrices justo volutpat. Nunc consequat est vel mi ornare cursus cursus leo posuere. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed ut nisl ipsum, a placerat orci. Duis ac enim nec nisl placerat viverra sit amet venenatis mauris. Integer eros lacus, bibendum sed blandit vel, pharetra id quam.</p>
+            <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
+			We focus on building or improving your website through innovative branding, Web design services, and graphic design 
+			solutions.</p>
+			
+            <p>WeCodeThings is made up of a team of 6 members, all experts in our respective fields. We are a reliable group that's 
+			easy to get along with. We communicate on your level and convey truth and integrity in our business relationship with you. 
+			We are driven by the values that have proven to be efficient and care about our reputation.</p>
 
             <div class="content_separator_small"></div>
             <div class="cite_content">
@@ -30,22 +31,26 @@
             <div class="content_separator_small"></div>
                           
             <br><br>
-            <h4>Fresh leadership</h4>
+            <h4>Our Mission</h4>
             <img src="images/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero condimentum convallis et a
-            lacus. Donec ut magna quam, vitae facilisis enim. Nunc velit lorem.</p>
+            <p>To help you and your organization reach out to and inspire your target audience with fresh design, well thought out 
+			web pages that convey your message concisely to your customer.</p>
             
-            <br><br>
-            <h4>Fresh strategies</h4>
+            <!---<br><br>
+            <h4>Our Vision</h4>
             <img src="images/green_grey/icons/ico_strategies.gif" alt="ico_leadership" class="float_left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero condimentum convallis et a
-            lacus. Donec ut magna quam, vitae facilisis enim. Nunc velit lorem.</p>
+            <p>WeCodeThings provides our clients with web sites, logos, and databases that work together to achieve a visually strong, 
+			efficient, and effective campaign with simplicity and unity. We provide high quality solutions at an affordable cost, 
+			communicate with you on your level, act with speed and integrity, and we provide exceptional resources that help you 
+			reach and inspire your target audience.</p>--->
             
             <br><br>
-            <h4>Fresh solutions</h4>
+            <h4>Our Vision</h4>
             <img src="images/green_grey/icons/ico_solutions.gif" alt="ico_leadership" class="float_left">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero condimentum convallis et a
-            lacus. Donec ut magna quam, vitae facilisis enim. Nunc velit lorem.</p>
+            <p>WeCodeThings provides our clients with web sites, logos, and databases that work together to achieve a visually strong, 
+			efficient, and effective campaign with simplicity and unity. We provide high quality solutions at an affordable cost, 
+			communicate with you on your level, act with speed and integrity, and we provide exceptional resources that help you 
+			reach and inspire your target audience.</p>
             
             <br>
             <img src="images/green_grey/CEO.jpg" alt="CEO" class="float_left">
@@ -106,19 +111,24 @@
             
             <br>
             <img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">
-        	<h3>Fresh tweets</h3>
+        	<h3>Follow Our Developers On Twitter</h3>
             <div class="twitter_feed">
-            	<strong>@yourTwitterId</strong>
+            	<strong>@Jiggidyuo</strong>
                 <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
             </div>
             
             <div class="twitter_feed">
-            	<strong>@yourTwitterId</strong>
+            	<strong>@Johnnygag</strong>
                 <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
             </div>
             
             <div class="twitter_feed">
-            	<strong>@yourTwitterId</strong>
+            	<strong>@Sweyrick</strong>
+                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            </div>
+			
+			<div class="twitter_feed">
+            	<strong>@Jagautier</strong>
                 <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
             </div>
         </div><!-- End of content_300 -->
