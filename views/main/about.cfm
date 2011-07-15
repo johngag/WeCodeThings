@@ -1,19 +1,10 @@
 ﻿<!-- ************ -->
 <!-- MAIN CONTENT -->
 <!-- ************ -->
-	<div class="main_content_wrapper main_content_wrapper_sidebar">        
+	<div class="main_content_wrapper"> 
+		<div class="page_title"><h1>About Us</h1></div>
+        <div class="clear"></div>       
         <div class="content_610">
-        	<h4 class="blue_h4">Full Services Agency</h4>
-            <div class="clear"></div>
-            <br>
-        	<h3>Donec congue magna nec turpis euismod interdum. Suspendisse tempor ultrices rutrum</h3>
-            <div class="content_separator_small"></div>
-            <div class="cite_content">
-            	<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper posuere sem, vel varius diam tincidunt id. Curabitur purus est, mattis non rutrum a, volutpat eget orci. Donec euismod sagittis leo at eleifend. Morbi felis tellus, suscipit sit amet condimentum vitae.</em></p>
-            </div>
-            
-            <div class="content_separator_small"></div>
-            
             <img src="images/green_grey/business_man.jpg" height="169" width="162" alt="businessman" class="float_left">
             <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
 			We focus on building or improving your website through innovative branding, Web design services, and graphic design 
@@ -24,13 +15,8 @@
 			We are driven by the values that have proven to be efficient and care about our reputation.</p>
 
             <div class="content_separator_small"></div>
-            <div class="cite_content">
-            	<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper posuere sem, vel varius diam tincidunt id. Curabitur purus est, mattis non rutrum a, volutpat eget orci. Donec euismod sagittis leo at eleifend. Morbi felis tellus, suscipit sit amet condimentum vitae.</em></p>
-            </div>
-            
-            <div class="content_separator_small"></div>
                           
-            <br><br>
+            <br>
             <h4>Our Mission</h4>
             <img src="images/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
             <p>To help you and your organization reach out to and inspire your target audience with fresh design, well thought out 
@@ -51,12 +37,6 @@
 			efficient, and effective campaign with simplicity and unity. We provide high quality solutions at an affordable cost, 
 			communicate with you on your level, act with speed and integrity, and we provide exceptional resources that help you 
 			reach and inspire your target audience.</p>
-            
-            <br>
-            <img src="images/green_grey/CEO.jpg" alt="CEO" class="float_left">
-            <p class="title_paragraph">A fresh thought from our CEO - <strong>John Doe</strong></p>
-            <div class="cite"><p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero 
-            condimentum convallis et a lacus. Donec ut magna quam, vitae facilisis enim. Nunc velit lorem, ullamcorper non porttitor nec, tristique condimentum lectus.</em></p></div>
         </div><!-- End of content_630 -->
         
         
