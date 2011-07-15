@@ -40,7 +40,7 @@
 
 	<div class="main_content_wrapper">
     	<div id="teaser">
-        	<h2>We are the ones that can make your business fresh!</h2>
+        	<h2>Clean Code For a Clean Website!</h2>
             <p>Our design studio cosists of professional staff specialized in creating beautiful and inteligent design</p>
         </div>
         <div class="box">
@@ -60,21 +60,22 @@
         </div><!-- End of box 3 -->
         
         <div class="content_630">
-        	<h3>Welcome to fresh ideas</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu, et feugiat dolor est eu lacus. Aenean eget est in libero condimentum convallis et a lacus. 
-            Donec ut magna quam, vitae facilisis enim. Nunc velit lorem, ullamcorper non porttitor nec, tristique condimentum lectus. Nunc vel erat enim. Sed mattis pretium arcu, eu aliquet urna varius sit amet. 
-            Proin dolor est, viverra tristique iaculis vitae, sollicitudin a magna.</p>
-            <p>Hasellus sit amet rutrum orci. In hac habitasse platea dictumst. Aliquam tempor lectus eu dolor ultrices malesuada. Nulla facilisi.</p>
+        	<h3>Welcome to WeCodeThings</h3>
+            <p>WeCodeThings is a leader in web design, web development, web hosting and Internet consulting services. 
+			Using your budget most effectively can make or break the success of your website. 
+			We help businesses build great websites by maximizing the effectiveness of your budget dollars. </p>
+            <p>Top quality web development and web programming can positively impact a company's bottom line. Here are three benefits corporate websites derive 
+			from enterprise quality website development and programming — usually called "Web Development Best Practices" and "Web Standards Compliance."</p>
         </div><!-- End of content_630 -->
         
         <div class="content_300">
-        	<h3>Our programming services</h3>
+        	<h3>Our Design & Code Services</h3>
             <ul id="fresh_services">
+                <li><a href="#">Website Design</a></li>
             	<li><a href="#">ColdFusion</a></li>
                 <li><a href="#">Flex | ActionScript</a></li>
                 <li><a href="#">PHP</a></li>
-                <li><a href="#">IPhone Apps</a></li>
-                <li><a href="#">Android Apps</a></li>
+                <li><a href="#">IPhone & Android Apps</a></li>
             </ul>
         </div><!-- End of content_300 -->
     </div><!-- End of main_contetn_wrapper -->
