@@ -3,8 +3,7 @@
 <!-- ************ -->
 	<div class="main_content_wrapper">
     <div class="full_width_wrapper">
-		<h3>Well, you need a fresh start, so we're here to make it for you!</h3>
-        
+		<div class="page_title"><h1>Well, you need a fresh start, so we're here to make it for you!</h1></div>        
         <p>Sadly most people haven't realized how much of a potential business boost a website can be. The cost of marketing 
 		TV ads or billboard ads, can be up to 10 times more extensive and reach an audience that is not looking for your 
 		business. But a website is generally looked at because the consumer is seeking out what he / she wants as opposed 
@@ -13,16 +12,9 @@
 		larger business can have. </p>
         
         <div class="content_separator_small"></div>
-        <div class="cite_content">
-            <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper posuere sem, vel varius diam tincidunt id. Curabitur 
-            purus est, mattis non rutrum a, volutpat eget orci. Donec euismod sagittis leo at eleifend. Morbi felis tellus, suscipit sit amet condimentum vitae.</em></p>
-        </div>
-        
-        <div class="content_separator_small"></div>
         
         <div class="content_470">
-        	<h3>Lorem ipsum dolor sit amet</h3>
-            <p class="subtitle_services">Duis feugiat orci vitae libero facilisis euismod</p>
+        	<h3>High Standards</h3>
             <div class="clear"></div>
             <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
             <p>WeCodeThings website design stands behind our name and can code in many different languages and can complete 
@@ -32,8 +24,7 @@
         </div><!-- End of content_470 -->
         
         <div class="content_470 box_last">
-        	<h3>Aliquam lobortis venenatis mattis</h3>
-            <p class="subtitle_services">Duis feugiat orci vitae libero facilisis euismod</p>
+        	<h3>Quality Design</h3>
             <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
             <p>WeCodeThings doesn't just stop at providing business website's, we also provide professional web design services 
 			that can be implemented into your existing website such as: logo design, brochure design, banner and graphic design. 
@@ -44,8 +35,7 @@
         <div class="clear"></div>
         
         <div class="content_470">
-        	<h3>Lorem ipsum dolor sit amet</h3>
-            <p class="subtitle_services">Duis feugiat orci vitae libero facilisis euismod</p>
+        	<h3>Custom Built</h3>
             <div class="clear"></div>
             <img src="images/green_grey/icons/ico_serv_03.gif" alt="picto">
             <p>These custom website designs showcase our creative, professional web designing style. In addition to our services 
@@ -58,9 +48,8 @@
         </div><!-- End of content_470 -->
         
         <div class="content_470 box_last">
-        	<h3>Professional Web Development Services also include:</h3>
-            <p class="subtitle_services">Duis feugiat orci vitae libero facilisis euismod</p>
-            <img src="images/green_grey/icons/ico_serv_04.gif" alt="picto">
+        	<h3>Professional Web Development Services also include</h3>
+            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
             <p>Statistical analysis of your website through the use of Google Analytics. These reports describe the way your website 
 			is being accessed and utilized by visitors. Using Google Analytics provides real time, web-based statistical reports which 
 			include numerical reports with graphs on multiple topics. Some include: Top visited pages, referring pages, referring URL's, 
@@ -69,8 +58,7 @@
         
         <div class="clear"></div>
         <div class="content_470">
-        	<h3>Lorem ipsum dolor sit amet</h3>
-            <p class="subtitle_services">Duis feugiat orci vitae libero facilisis euismod</p>
+        	<h3>Easy Updating!</h3>
             <div class="clear"></div>
             <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
             <p>WeCodeThings makes it easy to keep your website up to date with CMS (Content Management Systems). After your website 
@@ -79,9 +67,9 @@
         </div><!-- End of content_470 -->
         
         <div class="content_470 box_last">
-        	<h3>Do you have something you want to sell?</h3>
-            <p class="subtitle_services">WeCodeThings website development also offers Professional eCommerce Websites:</p>
-            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
+        	<h3>WeCodeThings website development also offers Professional eCommerce Websites</h3>
+            <img src="images/green_grey/icons/ico_serv_04.gif" alt="picto">
+			<br>
 			<ul>
 				<li>Shopping Carts</li>
 				<li>Payment Processing</li>
