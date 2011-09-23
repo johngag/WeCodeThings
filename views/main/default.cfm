@@ -5,7 +5,7 @@
 	<div class="slider_wrapper">
         <div id="carousel">
         	<div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/001.jpg"></a>
+        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/30rock.jpg"></a>
         	</div>
         	<div class="carousel-feature">
         		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/002.jpg"></a>
@@ -44,8 +44,8 @@
             <p>Our design studio cosists of professional staff specialized in creating beautiful and inteligent design</p>
         </div>
         <div class="box">
-        	<h2>Fresh Leadership</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu...</p>
+        	<h2>Website Hosting</h2>
+            <p>WeCodeThings can help you with managing domains or help you with hosting your site...</p>
             <a href="#">Learn more</a>
         </div><!-- End of box 1 -->
         <div class="box">

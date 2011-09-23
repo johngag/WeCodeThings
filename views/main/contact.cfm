@@ -67,7 +67,7 @@
         </form>
         <div class="clear"></div>
         <br><br>
-        <h3>Recent posts</h3>
+        <!---<h3>Recent posts</h3>
         <ul class="blog_sidebar">
         	<li>
             	<a href="#"><img src="images/green_grey/blog/thumb_01.jpg" alt="thumb"></a>
@@ -92,35 +92,40 @@
                 <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
                 <span><a href="#">February 02 2011</a></span>
             </li>
-        </ul>
+        </ul>--->
         
-    	<h3>Our fresh services</h3>
-        <ul id="fresh_services">
-        	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-            <li><a href="#">Fusce arcu ipsum</a></li>
-            <li><a href="#">Aliquam nec orci quam</a></li>
-            <li><a href="#">Sed commodo hendrerit egestas</a></li>
-            <li><a href="#">Mauris quis tortor tellus</a></li>
-            <li><a href="#">Fusce dictum nisl in metus</a></li>
-        </ul>
-        
-        <br>
-        <img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">
-    	<h3>Fresh tweets</h3>
-        <div class="twitter_feed">
-        	<strong>@yourTwitterId</strong>
-            <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
-        </div>
-        
-        <div class="twitter_feed">
-        	<strong>@yourTwitterId</strong>
-            <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
-        </div>
-        
-        <div class="twitter_feed">
-        	<strong>@yourTwitterId</strong>
-            <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
-        </div>
+    	<h3>Our services</h3>
+            <ul id="fresh_services">
+            	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Fusce arcu ipsum</a></li>
+                <li><a href="#">Aliquam nec orci quam</a></li>
+                <li><a href="#">Sed commodo hendrerit egestas</a></li>
+                <li><a href="#">Mauris quis tortor tellus</a></li>
+                <li><a href="#">Fusce dictum nisl in metus</a></li>
+            </ul>
+            
+            <br>
+            <img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">
+        	<h3>follow us on twitter</h3>
+            <div class="twitter_feed">
+            	<strong><a href="http://www.twitter.com/@jiggidyuo" target="_blank">@Jiggidyuo</a></strong>
+                <p>ColdFusion, jQuery, JavaScript</p>
+            </div>
+            
+            <div class="twitter_feed">
+            	<strong><a href="http://www.twitter.com/@johnnygag">@Johnnygag</a></strong>
+                <p>Flex, ActionScript, ColdFusion</p>
+            </div>
+            
+            <div class="twitter_feed">
+            	<strong><a href="http://www.twitter.com/@Sweyrick">@Sweyrick</a></strong>
+                <p>ActionScript, Flex, ColdFusion</p>
+            </div>
+			
+			<div class="twitter_feed">
+            	<strong><a href="http://www.twitter.com/@Jagautier">@Jagautier</a></strong>
+				<p>Node.js, Java, jQquery</p>
+            </div>
     </div><!-- End of content_300 -->
     <!-- SIDEBAR -->
     

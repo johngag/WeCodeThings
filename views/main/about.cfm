@@ -5,7 +5,7 @@
 		<div class="page_title"><h1>About Us</h1></div>
         <div class="clear"></div>       
         <div class="content_610">
-            <img src="images/green_grey/business_man.jpg" height="169" width="162" alt="businessman" class="float_left">
+            <img src="images/orange/e_sign.jpg" style=" background-color: #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid #000; padding: 10px;" height="169" width="162" alt="businessman" class="float_left">
             <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
 			We focus on building or improving your website through innovative branding, Web design services, and graphic design 
 			solutions.</p>
@@ -51,7 +51,7 @@
             <div class="clear"></div>
             <br><br>
             
-            <h3>Recent posts</h3>
+            <!---<h3>Recent posts</h3>
             <ul class="blog_sidebar">
             	<li>
                 	<a href="#"><img src="images/green_grey/blog/thumb_01.jpg" alt="thumb"></a>
@@ -76,10 +76,10 @@
                     <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a><br>
                     <span><a href="#">February 02 2011</a></span>
                 </li>
-            </ul>
+            </ul>--->
             
             
-        	<h3>Our fresh services</h3>
+        	<h3>Our services</h3>
             <ul id="fresh_services">
             	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
                 <li><a href="#">Fusce arcu ipsum</a></li>
@@ -90,26 +90,38 @@
             </ul>
             
             <br>
-            <img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">
-        	<h3>Follow Our Developers On Twitter</h3>
-            <div class="twitter_feed">
-            	<strong>@Jiggidyuo</strong>
-                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            <!---<img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">--->
+        	<h3>our developers</h3>
+            <!---<div class="twitter_feed">--->
+			<div>
+				
+            	<p>
+            		<strong>Joel Hill</strong><br />
+					ColdFusion, jQuery, JavaScript
+					<ul class="social">
+		                <li><a href="http://www.twitter.com/@jiggidyuo" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="#"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		                <li><a href="#"><img src="images/green_grey/icons/ico_stumble.png" alt="stumble uppon"></a></li>
+		                <li><a href="#"><img src="images/green_grey/icons/ico_youtube.png" alt="youtube channel"></a></li>
+		                <li><a href="#"><img src="images/green_grey/icons/ico_rss.png" alt="rss feed"></a></li>
+		            </ul>
+				</p>
             </div>
             
             <div class="twitter_feed">
-            	<strong>@Johnnygag</strong>
-                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            	<strong><a href="http://www.twitter.com/@johnnygag">@Johnnygag</a></strong>
+                <p>Flex, ActionScript, ColdFusion</p>
             </div>
             
             <div class="twitter_feed">
-            	<strong>@Sweyrick</strong>
-                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            	<strong><a href="http://www.twitter.com/@Sweyrick">@Sweyrick</a></strong>
+                <p>ActionScript, Flex, ColdFusion</p>
             </div>
 			
 			<div class="twitter_feed">
-            	<strong>@Jagautier</strong>
-                <p>Web Developer//Premium Word Press Theme Analyst//Video Editor, Graphic/Web Designer, IT Director, Architecture, Tutorials, Social Media <a href="#">http://premiumthemeclub.net</a></p>
+            	<strong><a href="http://www.twitter.com/@Jagautier">@Jagautier</a></strong>
+                <p>Web Developer</p>
+				<p>Node.js, Java, jQquery</p>
             </div>
         </div><!-- End of content_300 -->
         <!-- SIDEBAR -->
