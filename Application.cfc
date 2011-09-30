@@ -55,6 +55,13 @@
 		applicationKey = 'org.corfield.framework'
 	};
 	--->
+	<cfscript>
+	function setupApplication() 
+	{
+		initFile = expandPath("./config.ini");
+		Application.assetsDir = getProfileString(initFile, "assets", "linkedDir");
+	}
+	</cfscript>
 	
 	<cffunction name="setupRequest">
 		<!--- use setupRequest to do initialization per request --->
