@@ -86,7 +86,7 @@
         	<ul class="gallery clearfix">
             	<li><a href="#Application.assetsDir#/portfolio/renorotary.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/renorotary-288.png" alt="portfolio item"></a></li>
             </ul>
-            <h4><a href="##">Lorem ipsum dolor sit amet</a></h4>
+            <h4><a href="http://renonewgenrotary.com/">renonewgenrotary.com</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
             <div class="learn_more"><a href="##">Learn more</a></div>
         </div><!-- End of portfolio_box -->
@@ -95,7 +95,7 @@
         	<ul class="gallery clearfix">
             	<li><a href="#Application.assetsDir#/portfolio/titleserviceescrow.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/titleserviceescrow-288.png" alt="portfolio item"></a></li>
             </ul>
-            <h4><a href="http://renonewgenrotary.com/">renonewgenrotary.com</a></h4>
+            <h4><a href="http://www.titleserviceandescrow.com/">titleserviceandescrow.com</a></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
             <div class="learn_more"><a href="##">Learn more</a></div>
         </div><!-- End of portfolio_box -->
