@@ -60,6 +60,8 @@
 	{
 		initFile = expandPath("./config.ini");
 		Application.assetsDir = getProfileString(initFile, "assets", "linkedDir");
+		Application.jsDir = getProfileString(initFile, "assets", "jsDir");
+		Application.cssDir = getProfileString(initFile, "assets", "cssDir");
 	}
 	</cfscript>
 	
