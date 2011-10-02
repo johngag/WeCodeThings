@@ -15,10 +15,10 @@
             <h4>
             	<a href="http://30rockquotes.net/">30rockquotes.net</a>
 			</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more">
+            <p>A fan social fan site for the TV show 30 Rock. The site featues searchable quotes, trivia quotes and twitter bot...</p>
+            <!---<div class="learn_more">
             	<a href="##">Learn more</a>
-			</div>
+			</div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box">
@@ -30,10 +30,10 @@
             <h4>
             	<a href="http://www.cftips.net/">cftips.net</a>
 			</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more">
+            <p>Originally a ColdFusion blog to help other developers, now a very popular mango blog that with custom designs...</p>
+            <!---<div class="learn_more">
             	<a href="##">Learn more</a>
-			</div>
+			</div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box box_last">
@@ -45,10 +45,10 @@
             <h4>
             	<a href="http://www.thedraftassistant.com/">thedraftassistant.com</a>
 			</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more">
+            <p>The Draft Assistant uses a complex algorithm to help fantasy owner on their draft day, front site build in ColdFusion while the actual assistant is built in ActionScript and Flex...</p>
+            <!---<div class="learn_more">
             	<a href="##">Learn more</a>
-			</div>
+			</div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="clear"></div>
@@ -58,8 +58,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/housecleaning.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/housecleaning-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://www.ruthshousecleaning.com/">ruthshousecleaning.com</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>Built by our own masterful designer Yvonne Gensurowsky, This cleaning site uses custom made grapics and unique UI design...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box">
@@ -67,7 +67,7 @@
             	<li><a href="#Application.assetsDir#/portfolio/professionals.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/professionals-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://the-professionals.biz/">the-professionals.biz</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
+            <p>Beautifly designed for mulitple company's in the Reno, Sparks, Northern Nevada area...</p>
             <div class="learn_more"><a href="##">Learn more</a></div>
         </div><!-- End of portfolio_box -->
         
