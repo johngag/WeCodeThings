@@ -1,23 +1,25 @@
 <!-- *********** -->
 <!-- 3D Carousel -->
 <!-- *********** -->
+
+<cfoutput>
 <div class="slider_bg">
 	<div class="slider_wrapper">
-        <div id="carousel">
+        <div id="carousel" style="margin-top: 30px;">
         	<div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/30rock.jpg"></a>
+        		<a href="http://the-professionals.biz/" target="_blank"><img class="carousel-image" alt="Image Caption" src="#Application.assetsDir#/green_grey/3d_carousel/professionals-244.png"></a>
         	</div>
         	<div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/002.jpg"></a>
+        		<a href="http://www.ruthshousecleaning.com/" target="_blank"><img class="carousel-image" alt="Image Caption" src="#Application.assetsDir#/green_grey/3d_carousel/housecleaning-244.png"></a>
         	</div>
         	<div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/003.jpg"></a>
+        		<a href="http://30rockquotes.net/" target="_blank"><img class="carousel-image" alt="Image Caption" src="#Application.assetsDir#/green_grey/3d_carousel/30rock.png"></a>
         	</div>
             <div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/004.jpg"></a>
+        		<a href="http://www.titleserviceandescrow.com/" target="_blank"><img class="carousel-image" alt="Image Caption" src="#Application.assetsDir#/green_grey/3d_carousel/titleserviceescrow.png"></a>
         	</div>
             <div class="carousel-feature">
-        		<a href="#"><img class="carousel-image" alt="Image Caption" src="images/green_grey/3d_carousel/002.jpg"></a>
+        		<a href="http://renonewgenrotary.com/" target="_blank"><img class="carousel-image" alt="Image Caption" src="#Application.assetsDir#/green_grey/3d_carousel/rotary.png"></a>
         	</div>
         </div><!-- End of carousel -->
         
@@ -46,17 +48,17 @@
         <div class="box">
         	<h2>Website Hosting</h2>
             <p>WeCodeThings can help you with managing domains or help you with hosting your site...</p>
-            <a href="#">Learn more</a>
+            <a href="##">Learn more</a>
         </div><!-- End of box 1 -->
         <div class="box">
         	<h2>Fresh Strategies</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu...</p>
-            <a href="#">Learn more</a>
+            <a href="##">Learn more</a>
         </div><!-- End of box 2 -->
         <div class="box box_last">
         	<h2>Fresh Solutions</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu...</p>
-            <a href="#">Learn more</a>
+            <a href="##">Learn more</a>
         </div><!-- End of box 3 -->
         
         <div class="content_630">
@@ -71,14 +73,15 @@
         <div class="content_300">
         	<h3>Our Design & Code Services</h3>
             <ul id="fresh_services">
-                <li><a href="#">Website Design</a></li>
-            	<li><a href="#">ColdFusion</a></li>
-                <li><a href="#">Flex | ActionScript</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">IPhone & Android Apps</a></li>
+                <li><a href="##">Website Design</a></li>
+            	<li><a href="##">ColdFusion</a></li>
+                <li><a href="##">Flex | ActionScript</a></li>
+                <li><a href="##">PHP</a></li>
+                <li><a href="##">IPhone & Android Apps</a></li>
             </ul>
         </div><!-- End of content_300 -->
     </div><!-- End of main_contetn_wrapper -->
+</cfoutput>
 
 <!-- ******************* -->
 <!-- END OF MAIN CONTENT -->
