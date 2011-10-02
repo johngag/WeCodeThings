@@ -3,3 +3,4 @@ settings.xml
 .settings/
 .tmp_*
 WEB-INF/
+/config.ini
