@@ -25,7 +25,7 @@
         
         <!-- Header Main Text -->
         <div class="header_text_container">
-        	<h1>WeCodeThings</h1>
+        	<h1>(775) 591 8277</h1>
             <h3>WeCodeThings ColdFusion Website Design is a full service provider of custom website design, website programming, search engine optimization (SEO), Content Management Systems (CMS), Website Upgrades, and internet marketing in the Reno | Sparks | Northern Nevada area.</h3>
             <p>A Website is an investment and at WeCodeThings ColdFusion Web Services, we take your investment very seriously. That's why we offer an array of web development services that not only ensure a great-looking and fully functional website, but also a website that brings more customers and more business. That's also why we do not believe in cookie-cutter approaches. The WeCodeThings Web Services team can also redesign or upgrade your existing website. We work hard to ensure that your online marketing strategy works seamlessly with your company vision and your overall marketing plan. </p>
         </div>
@@ -47,17 +47,17 @@
         </div>
         <div class="box">
         	<h2>Website Hosting</h2>
-            <p>WeCodeThings can help you with managing domains or help you with hosting your site...</p>
-            <a href="##">Learn more</a>
+            <p>WeCodeThings can help you with hosting your site or managing domains for you...</p>
+            <a href="#buildURL(action='main.webhosting')#">Learn more</a>
         </div><!-- End of box 1 -->
         <div class="box">
-        	<h2>Fresh Strategies</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu...</p>
-            <a href="##">Learn more</a>
+        	<h2>Our Portfolio</h2>
+            <p>We have created all types of specialized designs that suited our customers needs...</p>
+            <a href="#buildURL(action='main.portfolio')#">Learn more</a>
         </div><!-- End of box 2 -->
         <div class="box box_last">
-        	<h2>Fresh Solutions</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, sem at varius tempus, nisi mauris semper arcu...</p>
+        	<h2>Web Services</h2>
+            <p>Find out about our services which include beautiful website design, custom code, web hosting and more...</p>
             <a href="##">Learn more</a>
         </div><!-- End of box 3 -->
         

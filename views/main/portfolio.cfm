@@ -15,7 +15,7 @@
             <h4>
             	<a href="http://30rockquotes.net/">30rockquotes.net</a>
 			</h4>
-            <p>A fan social fan site for the TV show 30 Rock. The site featues searchable quotes, trivia quotes and twitter bot...</p>
+            <p>A social fan site for the TV show 30 Rock. The site featues searchable quotes, trivia quotes and twitter bot...</p>
             <!---<div class="learn_more">
             	<a href="##">Learn more</a>
 			</div>--->
@@ -30,7 +30,7 @@
             <h4>
             	<a href="http://www.cftips.net/">cftips.net</a>
 			</h4>
-            <p>Originally a ColdFusion blog to help other developers, now a very popular mango blog that with custom designs...</p>
+            <p>Originally a ColdFusion blog to help other developers, now a very popular Mango Blog with custom designs...</p>
             <!---<div class="learn_more">
             	<a href="##">Learn more</a>
 			</div>--->
@@ -45,7 +45,7 @@
             <h4>
             	<a href="http://www.thedraftassistant.com/">thedraftassistant.com</a>
 			</h4>
-            <p>The Draft Assistant uses a complex algorithm to help fantasy owner on their draft day, front site build in ColdFusion while the actual assistant is built in ActionScript and Flex...</p>
+            <p>The Draft Assistant uses a complex algorithm to help fantasy owner on their draft day, front part of the site is build in ColdFusion while the actual assistant is built in ActionScript and Flex...</p>
             <!---<div class="learn_more">
             	<a href="##">Learn more</a>
 			</div>--->
@@ -67,8 +67,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/professionals.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/professionals-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://the-professionals.biz/">the-professionals.biz</a></h4>
-            <p>Beautifly designed for mulitple company's in the Reno, Sparks, Northern Nevada area...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>Beautifly designed for mulitple company's to gain a competitive advantage in the Reno, Sparks, Northern Nevada area...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box box_last">
@@ -76,8 +76,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/renoato.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/renoato-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://renoato.org/">renoato.org</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>A website developed for a local Reno, NV alumni association community...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="clear"></div>
@@ -87,8 +87,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/renorotary.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/renorotary-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://renonewgenrotary.com/">renonewgenrotary.com</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>A heavily modified Wordpress website that we setup to helpout a local non-profit rotoray group...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box">
@@ -96,8 +96,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/titleserviceescrow.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/titleserviceescrow-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://www.titleserviceandescrow.com/">titleserviceandescrow.com</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>This webiste was developed for a title and escrow company in Reno, Sparks, Carson City and Northern Nevada...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="portfolio_box box_last">
@@ -105,8 +105,8 @@
             	<li><a href="#Application.assetsDir#/portfolio/ygcreative.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/ygcreative-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://ygcreative.com/">ygcreative.com</a></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna nisi, sagittis at aliquet ac, mattis nec est. Duis massa metus...</p>
-            <div class="learn_more"><a href="##">Learn more</a></div>
+            <p>Our Grapics designer Yvonne shows off some of her previous work and wonderful designs...</p>
+            <!---<div class="learn_more"><a href="##">Learn more</a></div>--->
         </div><!-- End of portfolio_box -->
         
         <div class="clear"></div>
