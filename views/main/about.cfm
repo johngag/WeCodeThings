@@ -5,8 +5,10 @@
 		<div class="page_title"><h1>About Us</h1></div>
         <div class="clear"></div>       
         <div class="content_610">
-            <img src="images/orange/e_sign.jpg" style=" background-color: #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid #000; padding: 10px;" height="169" width="162" alt="businessman" class="float_left">
-            <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
+            <div style="padding-top:10px;" class="float_left">
+				<img src="images/orange/e_sign.jpg" style=" background-color: #ccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border: 1px solid #000; padding: 3px;" height="169" width="162" alt="businessman">
+           	</div>
+		    <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
 			We focus on building or improving your website through innovative branding, Web design services, and graphic design 
 			solutions.</p>
 			

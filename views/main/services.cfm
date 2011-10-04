@@ -48,7 +48,7 @@
         </div><!-- End of content_470 -->
         
         <div class="content_470 box_last">
-        	<h3>Professional Web Development Services also include</h3>
+        	<h3>Professional Web Development Services</h3>
             <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
             <p>Statistical analysis of your website through the use of Google Analytics. These reports describe the way your website 
 			is being accessed and utilized by visitors. Using Google Analytics provides real time, web-based statistical reports which 
