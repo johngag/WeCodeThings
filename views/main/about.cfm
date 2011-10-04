@@ -44,7 +44,7 @@
         
         <!-- SIDEBAR -->
         <div class="content_300 sidebar">
-            <form method="get" id="searchform" action="#">
+            <!---<form method="get" id="searchform" action="#">
             	<div>
             	<input class="search_input text" type="text" value="Search..." name="s" id="s" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             	<input type="image" src="images/green_grey/search_btn.png" value="Search" class="btn">
@@ -52,7 +52,7 @@
             </form>
             <div class="clear"></div>
             <br><br>
-            
+            --->
             <!---<h3>Recent posts</h3>
             <ul class="blog_sidebar">
             	<li>
@@ -80,51 +80,148 @@
                 </li>
             </ul>--->
             
-            
-        	<h3>Our services</h3>
+        	<!---<h3>our design & code services</h3>
             <ul id="fresh_services">
-            	<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Fusce arcu ipsum</a></li>
-                <li><a href="#">Aliquam nec orci quam</a></li>
-                <li><a href="#">Sed commodo hendrerit egestas</a></li>
-                <li><a href="#">Mauris quis tortor tellus</a></li>
-                <li><a href="#">Fusce dictum nisl in metus</a></li>
-            </ul>
+                <li><a href="#buildURL(action='main.services')#">Website Design</a></li>
+            	<li><a href="#buildURL(action='main.services')#">ColdFusion</a></li>
+                <li><a href="#buildURL(action='main.services')#">Flex | ActionScript</a></li>
+                <li><a href="#buildURL(action='main.services')#">PHP</a></li>
+                <li><a href="#buildURL(action='main.services')#">IPhone & Android Apps</a></li>
+            </ul>--->
             
-            <br>
+           
             <!---<img src="images/green_grey/icons/ico_twitter_sidebar.gif" class="sidebar_icon" alt="fresh tweets">--->
         	<h3>our developers</h3>
             <!---<div class="twitter_feed">--->
 			<div>
-				
             	<p>
             		<strong>Joel Hill</strong><br />
 					ColdFusion, jQuery, JavaScript
 					<ul class="social">
+						<li><a href="https://github.com/joelhill" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
 		                <li><a href="http://www.twitter.com/@jiggidyuo" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
-		                <li><a href="#"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
-		                <li><a href="#"><img src="images/green_grey/icons/ico_stumble.png" alt="stumble uppon"></a></li>
-		                <li><a href="#"><img src="images/green_grey/icons/ico_youtube.png" alt="youtube channel"></a></li>
-		                <li><a href="#"><img src="images/green_grey/icons/ico_rss.png" alt="rss feed"></a></li>
+		                <li><a href="http://www.linkedin.com/in/joelchill"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
 		            </ul>
 				</p>
             </div>
-            
-            <div class="twitter_feed">
-            	<strong><a href="http://www.twitter.com/@johnnygag">@Johnnygag</a></strong>
-                <p>Flex, ActionScript, ColdFusion</p>
-            </div>
-            
-            <div class="twitter_feed">
-            	<strong><a href="http://www.twitter.com/@Sweyrick">@Sweyrick</a></strong>
-                <p>ActionScript, Flex, ColdFusion</p>
-            </div>
+            <div class="clear"></div>
+            <br><br>
 			
-			<div class="twitter_feed">
+			<div>
+            	<p>
+            		<strong>John Gagliardi</strong><br />
+					ColdFusion, Flex, SQL
+					<ul class="social">
+						<li><a href="https://github.com/johngag" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="http://www.twitter.com/@johnnygag" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/in/johngag"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Stephen Weyrick</strong><br />
+					ColdFusion, Flex, ActionScript
+					<ul class="social">
+						<li><a href="https://github.com/sweyrick" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="http://www.twitter.com/@sweyrick" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/pub/stephen-weyrick/13/40b/39"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Jeremy Krohn</strong><br />
+					Java, ColdFusion, Web Services
+					<ul class="social">
+						<li><a href="https://github.com/jkrohn" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="http://twitter.com/#!/@jeremykrohn" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/pub/jeremy-krohn/20/709/a15" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Julian Gautier</strong><br />
+					Node.js, Java, jQquery
+					<ul class="social">
+						<li><a href="https://github.com/jgautier" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="https://twitter.com/#!/Jagautier" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/in/juliangautier" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Raymond Lee</strong><br />
+					ColdFusion, Flex, ActionScript 
+					<!---<ul class="social">
+						<li><a href="https://github.com/jgautier" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="https://twitter.com/#!/Jagautier" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/in/juliangautier" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>--->
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Brian Sheridan</strong><br />
+					ColdFusion, CSS, JavaScript
+					<ul class="social">
+						<li><a href="https://github.com/jgautier" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="https://twitter.com/#!/Jagautier" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/pub/brian-sheridan/1/b65/480" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Yvonne Gensurowsky</strong><br />
+					Master Designer, UI, CSS
+					<!---<ul class="social">
+						<li><a href="https://github.com/jgautier" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		                <li><a href="https://twitter.com/#!/Jagautier" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
+		                <li><a href="http://www.linkedin.com/in/juliangautier" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>--->
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<div>
+            	<p>
+            		<strong>Cody Munger</strong><br />
+					PHP, ColdFusion, C++
+					<ul class="social">
+						<li><a href="https://github.com/fPonias" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
+		            </ul>
+				</p>
+            </div>
+            <div class="clear"></div>
+            <br><br>
+			
+			<!---<div class="twitter_feed">
             	<strong><a href="http://www.twitter.com/@Jagautier">@Jagautier</a></strong>
                 <p>Web Developer</p>
 				<p>Node.js, Java, jQquery</p>
-            </div>
+            </div>--->
         </div><!-- End of content_300 -->
         <!-- SIDEBAR -->
         
