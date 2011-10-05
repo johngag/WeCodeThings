@@ -167,11 +167,9 @@
             	<p>
             		<strong>Raymond Lee</strong><br />
 					ColdFusion, Flex, ActionScript 
-					<!---<ul class="social">
-						<li><a href="https://github.com/jgautier" target="_blank"><img src="images/green_grey/icons/github.png" alt="github"></a></li>
-		                <li><a href="https://twitter.com/#!/Jagautier" target="_blank"><img src="images/green_grey/icons/ico_twitter.png" alt="twitter"></a></li>
-		                <li><a href="http://www.linkedin.com/in/juliangautier" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
-		            </ul>--->
+					<ul class="social">
+						<li><a href="http://www.linkedin.com/pub/raymond-lee/12/305/404" target="_blank"><img src="images/green_grey/icons/ico_linkedin.png" alt="linkedIn"></a></li>
+		            </ul>
 				</p>
             </div>
             <div class="clear"></div>
