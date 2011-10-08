@@ -13,27 +13,30 @@
         
         <div class="content_separator_small"></div>
         
-        <div class="content_470">
-        	<h3>High Standards</h3>
-            <div class="clear"></div>
-            <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
-            <p>WeCodeThings website design stands behind our name and can code in many different languages and can complete 
-			many different website based jobs. We utilize the newest of web-based technologies to offer the highest quality 
-			of web development. We primarily use ColdFusion with SQL Server for websites that require database integration. 
-			Small to medium businesses located in the Reno | Sparks, NV area are our specialty.</p>
-        </div><!-- End of content_470 -->
+		<a name="coldfusion" style="color:#777;">
+	        <div class="content_470">
+	        	<h3>High Standards</h3>
+	            <div class="clear"></div>
+	            <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
+	            <p>WeCodeThings website design stands behind our name and can code in many different languages and can complete 
+				many different website based jobs. We utilize the newest of web-based technologies to offer the highest quality 
+				of web development. We primarily use ColdFusion with SQL Server for websites that require database integration. 
+				Small to medium businesses located in the Reno | Sparks, NV area are our specialty.</p>
+	    	</div><!-- End of content_470 -->
+        <a>
         
-        <div class="content_470 box_last">
-        	<h3>Quality Design</h3>
-            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
-            <p>WeCodeThings doesn't just stop at providing business website's, we also provide professional web design services 
-			that can be implemented into your existing website such as: logo design, brochure design, banner and graphic design. 
-			Our web designers creative vision accomplish various projects and integrate your company's branding, video, animation, 
-			still images, text and audio into a web environment that ensures a cohesive image for your business success. </p>
-        </div><!-- End of content_470 -->
-        
-        <div class="clear"></div>
-        
+		<a name="webdesign" style="color:#777;">
+	        <div class="content_470 box_last">
+	        	<h3>Quality Design</h3>
+	            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto" />
+	            <p>WeCodeThings doesn't just stop at providing business website's, we also provide professional web design services 
+				that can be implemented into your existing website such as: logo design, brochure design, banner and graphic design. 
+				Our web designers creative vision accomplish various projects and integrate your company's branding, video, animation, 
+				still images, text and audio into a web environment that ensures a cohesive image for your business success. </p>
+	        </div><!-- End of content_470 -->
+        	<div class="clear"></div>
+        </a>
+		
         <div class="content_470">
         	<h3>Custom Built</h3>
             <div class="clear"></div>

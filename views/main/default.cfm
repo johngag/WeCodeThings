@@ -73,8 +73,8 @@
         <div class="content_300">
         	<h3>Our Design & Code Services</h3>
             <ul id="fresh_services">
-                <li><a href="#buildURL(action='main.services')#">Website Design</a></li>
-            	<li><a href="#buildURL(action='main.services')#">ColdFusion</a></li>
+                <li><a href="#buildURL(action='main.services##webdesign')#">Website Design</a></li>
+            	<li><a href="#buildURL(action='main.services##coldfusion')#">ColdFusion</a></li>
                 <li><a href="#buildURL(action='main.services')#">Flex | ActionScript</a></li>
                 <li><a href="#buildURL(action='main.services')#">PHP</a></li>
                 <li><a href="#buildURL(action='main.services')#">IPhone & Android Apps</a></li>
