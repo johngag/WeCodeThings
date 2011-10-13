@@ -2,7 +2,7 @@
 <div id="header">
 <div class="header_wrapper">
     <!-- logo -->
-    <div id="logo"><a href="#buildURL(action='main.default')#"><img src="images/green_grey/logo.png" alt="WeCodeThings.com homepage"></a></div>
+    <div id="logo" style="padding-top:15px;"><a href="#buildURL(action='main.default')#"><img src="images/orange/wecode-logo.png" alt="WeCodeThings.com homepage"></a></div>
     <!-- logo -->
     
     <!-- main menu -->
