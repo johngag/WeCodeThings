@@ -13,6 +13,7 @@
 
 <link rel="stylesheet" type="text/css" href="#Application.cssDir#/reset.css">
 <link rel="stylesheet" type="text/css" href="#Application.cssDir#/default.css" media="screen">
+<link rel="stylesheet" type="text/css" href="#Application.cssDir#/prettyphoto.css">
 <!--[if IE 7]>
         <link rel="stylesheet" type="text/css" href="#Application.cssDir#/ie7.css">
 <![endif]-->
@@ -22,6 +23,7 @@
 <script type="text/javascript" src="#Application.jsDir#/cufon_max.js"></script>
 <script type="text/javascript" src="#Application.jsDir#/3d_carousel.js"></script>
 <script type="text/javascript" src="#Application.jsDir#/custom.js"></script>
+<script type="text/javascript" src="#Application.jsDir#/jquery.prettyPhoto.js"></script>
 </head>
 
 <body>
@@ -41,5 +43,11 @@
 <!--- END OF FOOTER --->
 <!--- ************* --->
 
-</cfoutput></body>
+</cfoutput>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$(".gallery a[rel^='prettyPhoto']").prettyPhoto({theme:'facebook'});
+	});
+</script>
+</body>
 </html>

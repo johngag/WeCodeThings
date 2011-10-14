@@ -9,7 +9,7 @@
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
             	<li>
-            		<a href="#Application.assetsDir#/portfolio/30rock.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/30rock-288.png" alt="portfolio item" class="image"></a>
+            		<a href="#Application.assetsDir#/portfolio/30rock.png" rel="prettyPhoto[gallery1]" title="30rockquotes.net"><img src="#Application.assetsDir#/portfolio/30rock-288.png" alt="portfolio item" class="image"></a>
 				</li>
             </ul>
             <h4>
@@ -24,7 +24,7 @@
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
             	<li>
-            		<a href="#Application.assetsDir#/portfolio/cftips.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/cftips-288.png" alt="portfolio item"></a>
+            		<a href="#Application.assetsDir#/portfolio/cftips.png" rel="prettyPhoto[gallery1]" title="cftips.net"><img src="#Application.assetsDir#/portfolio/cftips-288.png" alt="portfolio item"></a>
 				</li>
             </ul>
             <h4>
@@ -39,7 +39,7 @@
         <div class="portfolio_box box_last">
         	<ul class="gallery clearfix">
             	<li>
-            		<a href="#Application.assetsDir#/portfolio/draftassist.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/draftassist-288.png" alt="portfolio item"></a>
+            		<a href="#Application.assetsDir#/portfolio/draftassist.png" rel="prettyPhoto[gallery1]" title="thedraftassistant.com"><img src="#Application.assetsDir#/portfolio/draftassist-288.png" alt="portfolio item"></a>
 				</li>
             </ul>
             <h4>
@@ -55,7 +55,7 @@
         
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/housecleaning.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/housecleaning-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/housecleaning.png" rel="prettyPhoto[gallery1]" title="ruthshousecleaning.com"><img src="#Application.assetsDir#/portfolio/housecleaning-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://www.ruthshousecleaning.com/">ruthshousecleaning.com</a></h4>
             <p>Built by our own masterful designer Yvonne Gensurowsky, This cleaning site uses custom made grapics and unique UI design...</p>
@@ -64,7 +64,7 @@
         
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/professionals.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/professionals-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/professionals.png" rel="prettyPhoto[gallery1]" title="the-professionals.biz"><img src="#Application.assetsDir#/portfolio/professionals-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://the-professionals.biz/">the-professionals.biz</a></h4>
             <p>Beautifly designed for mulitple company's to gain a competitive advantage in the Reno, Sparks, Northern Nevada area...</p>
@@ -73,7 +73,7 @@
         
         <div class="portfolio_box box_last">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/renoato.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/renoato-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/renoato.png" rel="prettyPhoto[gallery1]" title="renoato.org"><img src="#Application.assetsDir#/portfolio/renoato-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://renoato.org/">renoato.org</a></h4>
             <p>A website developed for a local Reno, NV alumni association community...</p>
@@ -84,7 +84,7 @@
         
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/renorotary.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/renorotary-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/renorotary.png" rel="prettyPhoto[gallery1]" title="renonewgenrotary.com"><img src="#Application.assetsDir#/portfolio/renorotary-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://renonewgenrotary.com/">renonewgenrotary.com</a></h4>
             <p>A heavily modified Wordpress website that we setup to helpout a local non-profit rotoray group...</p>
@@ -93,7 +93,7 @@
         
         <div class="portfolio_box">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/titleserviceescrow.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/titleserviceescrow-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/titleserviceescrow.png" rel="prettyPhoto[gallery1]" title="titleserviceandescrow.com"><img src="#Application.assetsDir#/portfolio/titleserviceescrow-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://www.titleserviceandescrow.com/">titleserviceandescrow.com</a></h4>
             <p>This webiste was developed for a title and escrow company in Reno, Sparks, Carson City and Northern Nevada...</p>
@@ -102,7 +102,7 @@
         
         <div class="portfolio_box box_last">
         	<ul class="gallery clearfix">
-            	<li><a href="#Application.assetsDir#/portfolio/ygcreative.png" rel="prettyPhoto[gallery1]" title="add your custom text here"><img src="#Application.assetsDir#/portfolio/ygcreative-288.png" alt="portfolio item"></a></li>
+            	<li><a href="#Application.assetsDir#/portfolio/ygcreative.png" rel="prettyPhoto[gallery1]" title="ygcreative.com"><img src="#Application.assetsDir#/portfolio/ygcreative-288.png" alt="portfolio item"></a></li>
             </ul>
             <h4><a href="http://ygcreative.com/">ygcreative.com</a></h4>
             <p>Our Grapics designer Yvonne shows off some of her previous work and wonderful designs...</p>
