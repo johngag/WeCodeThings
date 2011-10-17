@@ -46,7 +46,7 @@
 					local.errors = listAppend(local.errors,"Please enter a longer message.");
 				}
 				if(!len(local.errors)){	
-					email.setTo("jiggidyuo@gmail.com");//support@wecodethings.com   
+					email.setTo("support@wecodethings.com");   
 					email.setFrom(rc.email);   
 					email.setSubject("WeCodeThings Email From " & rc.name);   
 					email.setType("html");  

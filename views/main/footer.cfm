@@ -15,7 +15,7 @@
         	<h4>Contact WeCodeThings Website Development</h4>
             <ul id="contact_us_list">
             	<li id="contact_phone">(775) 591 8277</li>
-                <li id="contact_email"><a href="mailto:WeCodeThings@gmail.com">WeCodeThings@gmail.com</a></li>
+                <li id="contact_email"><a href="mailto:support@wecodethings.com">Support@WeCodeThings.com</a></li>
                 <li id="contact_addess">Street address: 527 Lander St. Suite 102 Reno, NV</li>
             </ul>
             <div id="contact_page"><a href="<cfoutput>#buildURL(action='main.contact')#</cfoutput>">Contact page</a></div>
