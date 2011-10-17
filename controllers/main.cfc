@@ -24,7 +24,6 @@
 		<cfparam name="rc.verification" default="">
 		<cfscript>
 			var local = {};
-			var email = new Mail();
 			local.errors = ""; 
 			if(isDefined("rc.mail") AND rc.mail eq true){
 				if(!len(rc.verification)){
@@ -45,20 +44,28 @@
 				if(len(rc.message) lt 20){
 					local.errors = listAppend(local.errors,"Please enter a longer message.");
 				}
-				if(!len(local.errors)){	
-					email.setTo("support@wecodethings.com");   
-					email.setFrom(rc.email);   
-					email.setSubject("WeCodeThings Email From " & rc.name);   
-					email.setType("html");  
-					email.send(body=rc.name & "<br />" & rc.phone & "<br />" & rc.website & "<br /><br />" & rc.message);
-				}
-				else{
-					rc.mail = local.errors;
-				}
 			}
 		</cfscript>
+		<cfif isDefined("rc.mail") AND rc.mail eq true>
+			<cfif !len(local.errors)>
+				<cfmail from="#rc.email#"
+						to="support@wecodethings.com"
+						subject="WeCodeThings Email From #rc.name#"
+					 	type="html">
+					<cfoutput>
+					#rc.name#
+					<br />
+					#rc.phone#
+					<br />
+					#rc.website#
+					<br /><br />
+					#rc.message#
+					</cfoutput>				 	
+				</cfmail>
+			<cfelse>
+				<cfset rc.mail = local.errors>	
+			</cfif>
+		</cfif>	
 	</cffunction>
-	
-	
 	
 </cfcomponent>
