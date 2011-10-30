@@ -18,7 +18,7 @@
             <br>
             <h4>Website Hosting</h4>
             <img src="#Application.assetsDir#/green_grey/icons/ico_strategies.gif" alt="ico_leadership" class="float_left">
-            <p>Shared web hosting is a service where multiple websites are located on a single server that is connected to the Internet. Each website has its own private space, file system, databases, and mail folders which are completely separated from the others on the server. This is a very cost-effective solution for many people and is usually the best plan to start with when building websites.</p>
+            <p>For ColdFusion hosting, we recommend <A HREF="http://hostek.com/aff.php?aff=676&plat=CF">Hostek</A>. I've been with them for over 3 years now and they are really good and reliable. They off shared web hosting, which is a service where multiple websites are located on a single server that is connected to the Internet. Each website has its own private space, file system, databases, and mail folders which are completely separated from the others on the server. This is a very cost-effective solution for many people and is usually the best plan to start with when building websites.</p>
             
             <!---<br><br>
             <h4>Our Vision</h4>
@@ -33,8 +33,8 @@
             <img src="#Application.assetsDir#/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
             <p>Whether you are looking for a domain for a new business, want to rebrand an existing business WeCodeThings can help you! We serve all of the Reno, Sparks, Northern Nevada area.</p>
         </div><!-- End of content_630 -->
-  
-        #view('main/sidebar')#
+		
+		#view('main/sidebar')#
         
     </div><!-- End of main_contetn_wrapper -->
 </cfoutput>

@@ -1,7 +1,9 @@
 ﻿<!-- SIDEBAR -->
 <cfoutput>
 <div class="content_300 sidebar">
-    <h3>our developers</h3>
+    <A HREF="http://hostek.com/aff.php?aff=676"><IMG SRC="http://hostek.com/banners/ht_234x60.gif" BORDER="0"></A>
+	<br />
+	<h3>our developers</h3>
     <!---<div class="twitter_feed">--->
 	<div>
     	<p>
