@@ -1,6 +1,22 @@
 <cfcomponent extends="org.corfield.framework" output="false">
+	<cfscript>
+	variables.framework = {
+		reloadApplicationOnEveryRequest = false,
+		// whether to force generation of SES URLs:
+		generateSES = true,
+		// whether to omit /index.cfm in SES URLs:
+		SESOmitIndex = true,
+		// location used to find layouts / views:
+		base = getDirectoryFromPath( CGI.SCRIPT_NAME ),
+		// either CGI.SCRIPT_NAME or a specified base URL path:
+		baseURL = CGI.SCRIPT_NAME,
+		// list of (partial) paths that FW/1 should not handle:
+		unhandledPaths = '/devFinder',
+		// set this to true to cache the results of fileExists for performance:
+		cacheFileExists = true
+	};
 	
-	<!--- framework defaults (as struct literal):
+	/*
 	variables.framework = {
 		// the name of the URL variable:
 		action = 'action',
@@ -54,8 +70,8 @@
 		// change this if you need multiple FW/1 applications in a single CFML application:
 		applicationKey = 'org.corfield.framework'
 	};
-	--->
-	<cfscript>
+	*/
+	
 	function setupApplication() 
 	{
 		initFile = expandPath("./config.ini");

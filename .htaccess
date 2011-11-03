@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^coldfusion/([^/]*)\.html$ /index.cfm?action=$1 [L]

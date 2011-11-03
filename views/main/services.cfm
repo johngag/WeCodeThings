@@ -1,4 +1,5 @@
-﻿<!-- ************ -->
+﻿<cfoutput>
+<!-- ************ -->
 <!-- MAIN CONTENT -->
 <!-- ************ -->
 	<div class="main_content_wrapper">
@@ -13,11 +14,11 @@
         
         <div class="content_separator_small"></div>
         
-		<a name="coldfusion" style="color:#777;">
+		<a name="coldfusion" style="color:##777;">
 	        <div class="content_470">
 	        	<h3>High Standards</h3>
 	            <div class="clear"></div>
-	            <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
+	            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_01.gif" alt="picto">
 	            <p>WeCodeThings website design stands behind our name and can code in many different languages and can complete 
 				many different website based jobs. We utilize the newest of web-based technologies to offer the highest quality 
 				of web development. We primarily use ColdFusion with SQL Server for websites that require database integration. 
@@ -25,10 +26,10 @@
 	    	</div><!-- End of content_470 -->
         <a>
         
-		<a name="webdesign" style="color:#777;">
+		<a name="webdesign" style="color:##777;">
 	        <div class="content_470 box_last">
 	        	<h3>Quality Design</h3>
-	            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto" />
+	            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_02.gif" alt="picto" />
 	            <p>WeCodeThings doesn't just stop at providing business website's, we also provide professional web design services 
 				that can be implemented into your existing website such as: logo design, brochure design, banner and graphic design. 
 				Our web designers creative vision accomplish various projects and integrate your company's branding, video, animation, 
@@ -40,7 +41,7 @@
         <div class="content_470">
         	<h3>Custom Built</h3>
             <div class="clear"></div>
-            <img src="images/green_grey/icons/ico_serv_03.gif" alt="picto">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_03.gif" alt="picto">
             <p>These custom website designs showcase our creative, professional web designing style. In addition to our services 
 			of standard site construction, web maintenance, blog creation, website installation, and comprehensive consultation, 
 			we also provide a more dynamic website development solution Using Adobe In-context Editing, we can deliver a custom 
@@ -52,7 +53,7 @@
         
         <div class="content_470 box_last">
         	<h3>Professional Web Development Services</h3>
-            <img src="images/green_grey/icons/ico_serv_02.gif" alt="picto">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_02.gif" alt="picto">
             <p>Statistical analysis of your website through the use of Google Analytics. These reports describe the way your website 
 			is being accessed and utilized by visitors. Using Google Analytics provides real time, web-based statistical reports which 
 			include numerical reports with graphs on multiple topics. Some include: Top visited pages, referring pages, referring URL's, 
@@ -63,7 +64,7 @@
         <div class="content_470">
         	<h3>Easy Updating!</h3>
             <div class="clear"></div>
-            <img src="images/green_grey/icons/ico_serv_01.gif" alt="picto">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_01.gif" alt="picto">
             <p>WeCodeThings makes it easy to keep your website up to date with CMS (Content Management Systems). After your website 
 			has been created, a section of the website is cut out so the most novice user can keep their website up to date and add 
 			new content to it. </p>
@@ -71,7 +72,7 @@
         
         <div class="content_470 box_last">
         	<h3>WeCodeThings website development also offers Professional eCommerce Websites</h3>
-            <img src="images/green_grey/icons/ico_serv_04.gif" alt="picto">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_serv_04.gif" alt="picto">
 			<br>
 			<ul>
 				<li>Shopping Carts</li>
@@ -94,3 +95,4 @@
 <!-- ******************* -->
 <!-- END OF MAIN CONTENT -->
 <!-- ******************* -->
+</cfoutput>

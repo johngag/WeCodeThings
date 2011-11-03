@@ -1,4 +1,5 @@
-﻿<!-- ************ -->
+﻿<cfoutput>
+<!-- ************ -->
 <!-- MAIN CONTENT -->
 <!-- ************ -->
 	<div class="main_content_wrapper"> 
@@ -6,7 +7,7 @@
         <div class="clear"></div>       
         <div class="content_610">
             <div style="padding-top:10px;" class="float_left">
-				<img src="images/orange/e_sign.jpg" style=" background-color: #ccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border: 1px solid #000; padding: 3px;" height="169" width="162" alt="businessman">
+				<img src="#variables.framework.base#images/orange/e_sign.jpg" style=" background-color: ##ccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border: 1px solid ##000; padding: 3px;" height="169" width="162" alt="businessman">
            	</div>
 		    <p>WeCodeThings is an IT Consulting firm based in Reno / Sparks, NV. We specialize in all aspects of Web Development. 
 			We focus on building or improving your website through innovative branding, Web design services, and graphic design 
@@ -20,7 +21,7 @@
                           
             <br>
             <h4>Our Mission</h4>
-            <img src="images/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
             <p>To help you and your organization reach out to and inspire your target audience with fresh design, well thought out 
 			web pages that convey your message concisely to your customer.</p>
             
@@ -34,7 +35,7 @@
             
             <br><br>
             <h4>Our Vision</h4>
-            <img src="images/green_grey/icons/ico_solutions.gif" alt="ico_leadership" class="float_left">
+            <img src="#variables.framework.base#images/green_grey/icons/ico_solutions.gif" alt="ico_leadership" class="float_left">
             <p>WeCodeThings provides our clients with web sites, logos, and databases that work together to achieve a visually strong, 
 			efficient, and effective campaign with simplicity and unity. We provide high quality solutions at an affordable cost, 
 			communicate with you on your level, act with speed and integrity, and we provide exceptional resources that help you 
@@ -42,12 +43,12 @@
         </div><!-- End of content_630 -->
         
         
-        <cfoutput>
 	 #view('main/sidebar')#
-	</cfoutput>
+	
         
     </div><!-- End of main_contetn_wrapper -->
 
 <!-- ******************* -->
 <!-- END OF MAIN CONTENT -->
 <!-- ******************* -->
+</cfoutput>
