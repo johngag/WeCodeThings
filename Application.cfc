@@ -11,7 +11,7 @@
 		// either CGI.SCRIPT_NAME or a specified base URL path:
 		baseURL = CGI.SCRIPT_NAME,
 		// list of (partial) paths that FW/1 should not handle:
-		unhandledPaths = '/devFinder',
+		unhandledPaths = '/devFinder,/demo,/blog',
 		// set this to true to cache the results of fileExists for performance:
 		cacheFileExists = true
 	};
