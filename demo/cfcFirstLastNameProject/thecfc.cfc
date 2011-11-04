@@ -1,0 +1,20 @@
+<cfcomponent>
+<cffunction name="ReturnFirstName" access="remote" returntype="query" hint="This will return the first name when passed a last name">
+  <cfargument name="LastName" type="string" required="Yes">
+  <cfset var get_employees_first_name = "">
+    <CFQUERY name="get_employees_first_name" datasource="mysqlcf_flexdemo">
+            select tstFirstName
+            from tblTest
+            where tstLastName = '#arguments.LastName#'
+  	</CFQUERY>
+  <CFRETURN get_employees_first_name>
+ </cffunction>
+ <cffunction name="returnallnames" access="public" returntype="query">
+ 	<cfset var qryReturn = "">
+    <cfquery name="allnames" datasource="mysqlcf_flexdemo">
+    	SELECT tstID, tstFirstName, tstLastName
+        FROM tblTest
+    </cfquery>
+  <cfreturn allnames>
+ </cffunction>
+</cfcomponent>

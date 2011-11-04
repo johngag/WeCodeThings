@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.cftips.shareMe" name="shareMe" version="1.2.1" provider-name="cftips" class="shareMe.Handler">
+
+<description><![CDATA[ shareMe is a plugin that displays popular social network links at the end of posts 
+						</br >
+						</br > 
+						Written by <a href="http://cftips.net">John Gag</a><br/>]]></description>
+<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+  <listens>
+	<event name="beforePostContentEnd" type="synch" priority="5" />
+  </listens>
+  
+  <listensAdmin>
+	<event name="settingsNav" type="synch" priority="5" />
+  	<event name="showshareMeSettings" type="synch" priority="5" />
+  </listensAdmin>
+  
+  <assets>
+		<asset file="assets/delicious.png"/>
+		<asset file="assets/digg.png"/>
+		<asset file="assets/facebook.png"/>
+		<asset file="assets/stumble.png"/>
+		<asset file="assets/fark.png"/>
+		<asset file="assets/furl.png"/>
+		<asset file="assets/mixx.png"/>
+		<asset file="assets/newsvine.png"/>
+		<asset file="assets/reddit.png"/>
+		<asset file="assets/spurl.png"/>
+		<asset file="assets/technorati.png"/>
+		<asset file="assets/yahoo.png"/>
+		<asset file="assets/wists.png"/>
+		<asset file="assets/simpy.png"/>
+		<asset file="assets/blinklist.png"/>
+		<asset file="assets/blogmarks.png"/>
+		<asset file="assets/smarking.png"/>
+		<asset file="assets/magnolia.png"/>
+		<asset file="assets/msn.png"/>
+		<asset file="assets/google.png"/>
+		<asset file="assets/segnalo.png"/>
+		<asset file="assets/diigo.png"/>
+		<asset file="assets/excites.png"/>
+		<asset file="assets/netvouz.png"/>
+		<asset file="assets/dzone.png"/>
+	</assets>
+</plugin>

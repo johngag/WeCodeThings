@@ -1,0 +1,1 @@
+<cftry><cfset blog = request.blogManager.getBlog() /><cfcontent reset="true" /><cfinclude template="#blog.getSetting('skins').path##blog.getSkin()#/error.cfm"><cfcatch type="any"><cfoutput>#request.message.getTitle()#: #request.message.getText()# <br/>#request.message.getData()#</cfoutput></cfcatch></cftry>

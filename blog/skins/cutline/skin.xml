@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin id="cutline" name="Cutline" version="1.0" provider-name="AsFusion" lastModified="2009-09-08">
+	<description>Design based on Cutline by Chris Pearson</description>
+	<url></url>
+	<author>AsFusion</author>
+	<authorUrl>http://www.asfusion.com</authorUrl>
+	<designAuthor>Chris Pearson</designAuthor>
+	<designAuthorUrl>http://cutline.tubetorial.com</designAuthorUrl>
+	<thumbnail>assets/images/skin_thumbnail.png</thumbnail>
+	<preview>http://www.mangoblog.org/themes/preview/cutline</preview>
+	<requiresVersion match="greaterOrEqual">1.4</requiresVersion>
+	<adminEditorCss>assets/styles/adminEditor.css</adminEditorCss>
+	<license>Creative Commons Attribution-ShareAlike 2.5</license>
+	<pageTemplates>
+		<template file="archives_index.cfm" name="Archives Listing Page" />
+	</pageTemplates>
+	<adminPageTemplates>
+		<template id="login" file="login.cfm" />
+	</adminPageTemplates>
+	<podLocations>
+		<location id="sidebar" name="General sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="blog-description">Blog Description</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-page" name="Page Sidebar">
+			<pod id="page-menu">Page Navigation</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-archives" name="Archives Sidebar">
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+	</podLocations>
+</skin>

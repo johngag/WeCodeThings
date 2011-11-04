@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.wris.mango.plugins.TwitterRetweet" name="Twitter Retweet" version="1.0" provider-name="WRIS" class="TwitterRetweet.Handler">
+	<description>
+		<![CDATA[
+		Adds the offical twitter retweet button with some basic configuration like style, referrer and tweet text.
+		]]>
+	</description>
+
+	<requiresVersion match="greaterOrEqual">1.3</requiresVersion>
+	
+	<listens>
+		<event name="beforeHtmlHeadEnd" type="synch" priority="5" />
+		<event name="settingsNav" type="synch" priority="5" />
+		<event name="showTwitterRetweetSettings" type="synch" priority="5" />
+		<event name="beforePostContentEnd" type="synch" priority="5" />
+	</listens>
+
+</plugin>

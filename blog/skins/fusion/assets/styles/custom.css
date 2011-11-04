@@ -1,0 +1,18 @@
+/*
+	custom.css custom styles
+*/
+
+.recentcomments a {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.error {
+  border: 1px solid #ed1f24;
+  padding: 10px;
+}
+.message {
+  color: #666666;
+  border: 1px solid #999999;
+  padding: 10px;
+}

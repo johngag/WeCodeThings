@@ -1,0 +1,95 @@
+body {
+	font: 75%/150% "Trebuchet MS", Tahoma, Arial;
+	color: #333333;
+}
+a {
+	color: #CC6600;
+	text-decoration: none;
+}
+a:visited {
+	color: #CC6633;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+p {
+	padding: 0px 0px 15px;
+	margin: 0px;
+}
+h1 {
+	margin:0px;
+	background: url(../images/header-icon.gif) no-repeat;
+	padding-left: 70px;
+	height: 60px;
+	font: bold 36px/100% "Trebuchet MS", Tahoma, Arial;
+	color: #c9eefe;
+}
+h1 a, h1 a:visited{
+	color: #c9eefe;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+h2 {
+	color: #59770e;
+	margin: 0px 0px 2px;
+	border-bottom: 1px dotted #CCCCCC;
+	letter-spacing: -1px;
+	font: normal 190%/100% "Trebuchet MS", Tahoma, Arial;
+	padding-bottom: 3px;
+}
+h2 a, h2 a:visited {
+	color: #59770e;
+	text-decoration: none;
+}
+h2 a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+h3 {
+	font: normal 140%/100% "Trebuchet MS", Tahoma, Arial;
+	color: #758d38;
+	margin: 10px 0px 5px;
+}
+h4 {
+	font: normal 130%/100% "Trebuchet MS", Tahoma, Arial;
+	color: #758d38;
+	margin: 10px 0px 5px;
+}
+
+
+/* alignments */
+.center {
+	text-align: center;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+		
+.error {
+	color: #FC3307;
+	border: 1px solid #FC3307;
+}
+
+.message {
+	color: #090;
+	border: 1px solid #7ed500;
+}
+
+p.error, p.message {
+	padding: 1em;
+	font-weight: bold;
+	margin-top: 2em;
+}

@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 22px;
+}
+.title a {
+	color: #006699;
+	text-decoration: none;
+}
+#sidebar, #header, #footer, #nextN, .meta, object, form {
+	display: none;
+}
+.byline {
+	font-style: italic;
+}
+
+.commentDisp {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+}
+.commentDisp2 {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.commentPerson {
+	font-weight: bold;
+}

@@ -1,0 +1,327 @@
+@import url(base-weblog.css);
+
+/*
+name: Magic Paper
+designer: Simone Plebani
+designer_url: http://www.magicpaper.altervista.org 
+description: A simple paper. Share your memories, your past experiences, your emotions, your love. Your Skills. Nothing else. Just a bit of Ink.
+layouts: one-column, two column-left, two-column-right, three-column
+*/
+
+/* ------- Elementi Basilari -------- */
+/* ------- BASILAR ELEMENTS --------- */
+body {
+		background: 	#2b2207 url(background.gif) repeat-x top ;
+		font-family: 	georgia, times, serif;
+	}
+acronym, abbr {
+		border-bottom: 		1px dotted #a78f65;
+		text-decoration: 	none;
+		cursor: 			help;
+	}
+code, pre {	font-family: "Courier New",Courier,monospace; }
+input, textarea { background: #f0e8db; border: 1px solid #cec0a1; color: #666666; }
+
+/* -- LVHA Rule -- More Browser Compatibility */ 
+/* In order :link, :visited, :hover, :active */
+/* ITA: In ordine :link, :visited, :hover, :active. Serve per una corretta visualizzazione dei links
+	in alcuni browser come Camino, ecc. */
+a:link {
+		border-bottom: 1px solid #d3c8b3;
+		text-decoration: none;
+		color: 			#3f848a;
+	}
+a:visited {
+		text-decoration: none;
+		border-bottom: 	1px solid #d3c8b3;
+		color: 			#3f848a;
+	}
+a:hover {
+		border-bottom: 	1px solid #1a3d40;
+		text-decoration: none;
+		color:			#324648;
+		background-color: #ded4c2;
+	}
+a:active {
+		border-bottom: 	1px solid #1a3d40;
+		text-decoration: none;
+		color:			#324648;
+		background-color: #ded4c2;
+	}
+#container { border: none; margin: 0 auto; padding:	0; }
+#container-inner { border: 0; }
+#pagebody { padding: 0; margin: 0; overflow: hidden; }
+#pagebody-inner { margin: 0; padding: 0; }
+.pkg#alpha-inner { margin: 0; padding: 0; }
+#alpha, #beta, #gamma { color: #695847; margin: 0; }
+
+
+/* ---------- HEADER --------- */
+
+#banner { 	
+		background: 	transparent url(header.gif) no-repeat top left;
+		width: 			474px;
+		height: 		191px;
+	}
+#banner-inner {
+		padding: 		5px 0;
+		width:			328px;
+		height: 		81px;
+		border:			0;
+		text-align:		center;
+		margin: 		0 auto;
+	}
+#banner-header {
+		color: 			#c6c29e;
+		line-height:	100%;
+		font-size:		250%;
+		font-family: 	georgia, times, serif; 
+		font-weight:	normal;
+		margin:			5px 0 0 0;
+	}
+#banner-description {
+		color: 			#b8b19e;
+		font-size: 		110%;
+		text-shadow: 	#36414d 0 1px 2px;
+		font-family: 	georgia, times, serif; 
+	}
+#banner a { 
+		color: 			#c6c29e; 
+		text-decoration: none;
+		border: 		none;
+		background: 	none;
+	}
+#banner a:visited { padding: 0; background: none; }
+#banner a:hover { color: #f3eec3; }
+
+/* ------------------------------------ */
+/* ------ FORMATTED ELEMENTS ---------- */
+
+.entry-body ul li { list-style-image: url(bullet.gif); }
+.entry-body ol li { list-style-type : upper-roman; }
+.content-nav { margin: 0px; }
+div.entry { margin: 0 auto; }
+.entry-body img, .comment-userpic img { border: solid 1px #4d6e71; padding: 3px; }
+span.separator { display: none;	}
+.entry-content,	.comment-content { margin: 0; line-height: 1.5; }
+.entry { margin: 0 auto; width: 93%; }
+blockquote {
+		padding:		20px 0 0 50px;
+		margin: 		0 auto;
+		font-style: 	italic;
+		font-size:		125%;
+		color: 			#7f6d5a;
+		width: 			80%;
+		background: 	url(blockquote.gif) top left no-repeat;
+	}
+.entry-body, .entry-more, .comments-open-content, .trackbacks-content, .comment-content {
+		background: 	transparent;
+		padding: 		0;
+		font-size:		105%;
+		width: 			100%;
+		margin: 		0 auto;
+		color:			#8b7967;
+		line-height:	130%;
+	}
+
+/* USER'S PITCURES - Settings ----------------------- */
+
+.entry-footer, .comment-footer, .trackback-footer {
+		width: 			99%; /* 99% --> No User Pics /// < 85% --> User Pics (proportional to images' dimensions) */
+		font-size:		100%;
+		text-align: 	left;
+		border-top: 	2px solid #d3c8b3;
+		padding: 		0;
+		margin:			0;
+		margin-top: 	5px;
+		margin-bottom: 	8px;
+		float: 			right;
+		color: 			#695847;
+	}
+.entry-userpic, 
+.comment-userpic {
+		display: 		none; /* Add Comment to Show UserPics (only LJ's users) */
+		float: 			left;
+		width: 			50px;
+		height: 		70px;
+		position: 		relative;
+		top: 			-2px;
+	}
+.entry-userpic img,
+.comment-userpic img {
+		width: 			50px;
+		height: 		50px;
+		margin-top: 	5px;
+	}	
+	
+/* ---------------------------- */
+/* ------- H2/H3 Style! ------- */
+.entry-header, 
+h3#trackback, 
+h2.comments-open-header,
+h3.comments-header,
+#alpha h3 {
+		background: 	transparent url(title_header.jpg) left top no-repeat;
+		font-size: 		1.7em;
+		line-height: 	1.3em;
+		color:			#695847;
+		margin:   		0;
+		margin-top:		5px; 
+		padding: 		2px 0 8px 36px;
+	}
+.date-header {
+		background: 	transparent url(title_date.gif) right top no-repeat;
+		color:			#968472;
+		font-size: 		1.5em;
+		margin: 		0px 20px 0px 0px;
+		float: 			right;
+		line-height: 	1.3em;
+		padding: 		0 40px 10px 0px;
+	}
+h2.comments-open-header {background: transparent url(title_postcomment.gif) left top no-repeat; }
+h2.module-header {background: transparent url(module_title.gif) left bottom no-repeat; font-size: 1.4em; text-transform: uppercase; padding: 0 0 3px 10px; }
+h2.module-header a, h2.module-header a:visited, h2.module-header a:hover { margin: 0; padding: 0; background-color: transparent; }
+h2.module-header a { color: #695847; }
+h2.module-header a:visited { border-bottom: 1px solid #d3c8b3;  background: transparent url(module_title.gif) left bottom no-repeat;}
+h2.module-header a:hover { border-bottom: 1px solid #d3c8b3; }
+
+/* --- INDIVIDUAL ENTRY Style (Comments, Trackback, ecc) -------- */
+#trackbacks-info {
+		border: 		1px solid #d3c8b3;
+		text-align: 	center;
+		padding:		.5em;
+		width: 			80%;
+		margin: 		0 auto;
+		font-size:		105%;
+		background: 	#ece4d4;	
+	}
+.comments-open-moderated, .trackback-content {
+		border: 		1px solid #d3c8b3;
+		text-align: 	center;
+		padding:		0.5em;
+		margin: 		0 auto;
+		font-size:		105%;
+		background: 	#ece4d4;	
+	}
+div.trackbacks, 
+div.comments-open, 
+div.comments-content { margin: 0 auto; width: 95%; }
+.trackback-content {
+		border: 		0;
+		color: 			#9B9188;
+		border-top: 	1px solid #d3c8b3;
+		padding:		0.3em;
+		margin: 		0 auto;
+		text-align:		left;
+		font-size:		95%;
+		font-family:	Arial, Helvetica, sans-serif;
+		line-height: 	normal;
+		background: 	#ece4d4;	
+	}
+.comments-open-footer {	margin: 10px 0; }
+.comments-open-data label { font-size: 130%; }
+.comment-content { border-bottom:  2px solid #bbaf97; }
+.trackback-footer {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+span.post-footers,
+.trackback-footer {
+		text-align: 	left;
+		font-size: 		105%;
+		display: 		block;
+		background: 	transparent url(title_author.gif) left center no-repeat;
+		padding-left: 	40px; 
+		padding-top: 	4px;
+	}
+
+/* ------- "BOOKMARK" Style (Column) ------- */
+
+.module-content { margin: 5px 10px 5px 10px; }
+.module-list {font-size: 100%; }
+.module-list-item {
+		background:		url(bullet.gif) 0px 3px no-repeat;
+		padding:		0 0 0 12px;
+		display:		block;
+	}
+.module-list-item .module-list-item {
+		background: 	url(bullet_module.gif) 2px 3px no-repeat;
+		padding: 		0 0 0 14px; 
+	}	
+#search { 
+		width: 			167px; 
+		background: 	transparent url(search.gif) no-repeat; 
+		border: 		0; 
+		padding-left: 	3px; 
+		margin: 		5px 0 5px 0; 
+		color: 			#3f848a;
+	}
+/* FEED Style */
+.module-syndicate { padding-left: 35px; width: 75%; background: transparent url(feed_title.gif) top left no-repeat; margin: 15px 0 0 5px;}
+.module-syndicate a:link { text-transform: uppercase; color: #9d8c61; line-height: 1.4em; border: none; font-size: 0.9em;}
+.module-syndicate a:visited { background: none; padding: 0;}
+.module-syndicate a:hover { background: none; border-bottom: 1px solid #b8a87f; }
+
+/* 1 colonna */
+/* ONE COLUMN */
+.layout-one-column #container { width:474px; }
+.layout-one-column #alpha {
+ 		padding:		0px 0px 120px 0px;
+		width: 			474px;
+		background: 	transparent url(footer.jpg) no-repeat left bottom;
+	}
+.layout-one-column #alpha-inner { background: transparent url(alpha-inner.gif) center top no-repeat; }
+.layout-one-column .pkg#pagebody-inner { margin: 0; background: transparent url(pattern.gif) repeat-y; }
+
+/* 2 colonne (sinistra)*/
+/* TWO COLUMN LEFT */
+.layout-two-column-left #container { width:680px; }
+.layout-two-column-left #beta { width: 474px; background: transparent url(pattern.gif) repeat-y; }
+.layout-two-column-left #banner { float: right; }
+.layout-two-column-left #pagebody { clear: both; }
+.layout-two-column-left #alpha {
+ 		width: 			191px;
+		background: 	#f0e8db url(bottom_column.gif) no-repeat left bottom;
+		float: 			left;
+		padding:		0 0 55px 0;
+		margin:			0 15px 0 0;
+	}
+.layout-two-column-left #beta-inner { background: transparent url(alpha-inner.gif) center top no-repeat; }
+.layout-two-column-left #alpha-inner { background: transparent url(top_column.gif) center top no-repeat; padding-top: 80px; }
+
+/* 2 colonne (destra)*/
+/* TWO COLUMN RIGHT */
+.layout-two-column-right #container { width:680px; }
+.layout-two-column-right #alpha { width: 474px; background: transparent url(pattern.gif) repeat-y; }
+.layout-two-column-right #banner { float: left; }
+.layout-two-column-right #pagebody { clear: both; }
+.layout-two-column-right #beta {
+ 		width: 			191px;
+		background: 	#f0e8db url(bottom_column.gif) no-repeat center bottom;
+		float: 			left;
+		padding:		0 0 55px 0;
+		margin:			0 0 0 15px;
+	}
+.layout-two-column-right #alpha-inner { background: transparent url(alpha-inner.gif) center top no-repeat; }
+.layout-two-column-right #beta-inner { width: 191px; background: transparent url(top_column.gif) center top no-repeat; padding-top: 80px; }
+
+/* 3 colonne */
+/* THREE COLUMNS */
+.layout-three-column #container { width:886px; }
+.layout-three-column #beta { width: 474px; background: transparent url(pattern.gif) repeat-y; float: left;}
+.layout-three-column #banner { margin: 0 auto; }
+.layout-three-column #pagebody { clear: both; }
+.layout-three-column #alpha, .layout-three-column #gamma {
+ 		width: 			191px;
+		background: 	#f0e8db url(bottom_column.gif) no-repeat center bottom;
+		float: 			left;
+		padding:		0 0 45px 0;
+	}
+.layout-three-column #alpha { margin: 0 15px 0 0; }
+.layout-three-column #gamma { margin: 10px 0 0 15px; }
+.layout-three-column #beta-inner { background: transparent url(alpha-inner.gif) center top no-repeat; }
+.layout-three-column #alpha-inner { width: 191px; background: transparent url(top_column.gif) center top no-repeat; padding-top: 80px; }
+.layout-three-column #gamma-inner { width: 191px; background: transparent url(top_column2.gif) center top no-repeat; padding-top: 65px; }
+
+

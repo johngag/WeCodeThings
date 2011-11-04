@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin id="movabletype_leftsidebar" name="Movable Type" version="1.4" provider-name="AsFusion" lastModified="2008-JUN-11">
+	<description>An implementation of the general Movable Type template. 
+	Styles sheets can be exchanged to any MT style sheet and they should work without modification. Default is 'Magic Paper'</description>
+	<url></url>
+	<author>AsFusion</author>
+	<authorUrl>http://www.asfusion.com</authorUrl>
+	<designAuthor>sixapart</designAuthor>
+	<designAuthorUrl>http://sixapart.com/</designAuthorUrl>
+	<thumbnail>assets/skin_thumbnail.png</thumbnail>
+	<preview></preview>
+	<requiresVersion match="greaterOrEqual">1.1</requiresVersion>
+	<adminEditorCss>assets/styles/adminEditor.css</adminEditorCss>
+	<license></license>
+	<pageTemplates><template file="oneColumnPage.cfm" name="No sidebar page" /></pageTemplates>
+	<podLocations>
+		<location id="sidebar" name="Sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="pages">Top level pages</pod>
+			<pod id="search">Search</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="posts">Last 5 posts</pod>
+			<pod id="links-by-category">Links by category</pod>
+			<pod id="feeds">RSS feeds</pod>
+		</location>
+		<location id="sidebar-page" name="Page Sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="page-menu">Page Navigation</pod>
+			<pod id="search">Search</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="posts">Last 5 posts</pod>
+			<pod id="links-by-category">Links by category</pod>
+			<pod id="feeds">RSS feeds</pod>
+		</location>
+	</podLocations>
+</skin>
