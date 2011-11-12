@@ -30,9 +30,17 @@
             
             <br><br>
             <h4>Domain Names</h4>
-            <img src="#Application.assetsDir#/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">
-            <p>Whether you are looking for a domain for a new business, want to rebrand an existing business WeCodeThings can help you! We serve all of the Reno, Sparks, Northern Nevada area.</p>
-        </div><!-- End of content_630 -->
+            <div style="float:left">
+       			<br />
+				<a href="http://www.jdoqocy.com/click-5535990-10821680" target="_blank">
+				<img src="http://www.lduhtrp.net/image-5535990-10821680" width="120" height="240" alt="Sale! .Com domains just $7.49 from GoDaddy.com" border="0"/></a>
+			</div>
+			<!---s<img src="#Application.assetsDir#/green_grey/icons/ico_leadership.gif" alt="ico_leadership" class="float_left">--->
+            <div style="padding-left: 130px;">
+				<p>Whether you are looking for a domain for a new business, want to rebrand an existing business WeCodeThings can help you! We serve all of the Reno, Sparks, Northern Nevada area. We recommend <a href="http://www.jdoqocy.com/click-5535990-10821680" target="_blank">GoDaddy</a> for domain name registration.</p>
+       		</div>
+			
+	    </div><!-- End of content_630 -->
 		
 		#view('main/sidebar')#
         
